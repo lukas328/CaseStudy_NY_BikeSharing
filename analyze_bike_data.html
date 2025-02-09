@@ -1,0 +1,1879 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>ac22ade01aa64c73921ca73a4057e088</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="eec38b03" class="cell markdown">
+<h1 id="nyc-bike-sharing-data-analysis">NYC Bike-Sharing Data
+Analysis</h1>
+<h3 id="objective">Objective</h3>
+<p>Bike sharing has become an integral part of New York City’s
+transportation network. Every month, thousands of rides take place,
+generating a wealth of information about rider behavior. This notebook
+analysis a given month of bike-sharing data from <a
+href="https://citibikenyc.com/system-data">Citi Bike</a> to answer the
+quetion:</p>
+<blockquote>
+<p><strong>Does it make sense to introduce an insurance fee for rides
+that last more than 30 minutes?</strong></p>
+</blockquote>
+<hr />
+<h3 id="key-questions">Key Questions</h3>
+<p>Main Questions to answer:</p>
+<ol>
+<li><strong>How many rides exceed 30 minutes?</strong><br />
+</li>
+<li><strong>What revenue could be generated if we charge USD 0.20 for
+each ride over 30 minutes?</strong><br />
+</li>
+<li><strong>How far do people typically travel, categorized into
+distance buckets (0–1, 2–4, 4–9, and 10+)?</strong></li>
+</ol>
+<hr />
+<h3 id="structure-of-the-notebook">Structure of the Notebook</h3>
+<ol>
+<li><strong>Environment Setup</strong>
+<ul>
+<li>Import necessary libraries and set up PySpark</li>
+<li>Load the NYC bike-sharing dataset<br><br></li>
+</ul></li>
+<li><strong>Data Quality Review</strong>
+<ul>
+<li>Assess the completeness and accuracy of the data</li>
+<li>Get first look into the data</li>
+<li>Confirm that the dataset is sufficient for our analysis
+goals<br><br></li>
+</ul></li>
+<li><strong>Core Calculations</strong>
+<ul>
+<li>Compute ride distances</li>
+<li>Identify rides longer than 30 minutes and estimate potential
+insurance revenue<br><br></li>
+</ul></li>
+<li><strong>Visualizations</strong>
+<ul>
+<li>Presenting key findings in clear and concise charts (e.g., bar
+charts, histograms)<br />
+</li>
+<li>Highlight distance distributions and long-ride
+frequencies<br><br></li>
+</ul></li>
+<li><strong>Reporting</strong>
+<ul>
+<li>Summarize critical insights in a tailored report (Bottom of the
+Notebook)</li>
+<li>Outline actionable recommendations for introducing an insurance
+fee</li>
+</ul></li>
+</ol>
+</div>
+<div id="7ce7ea59" class="cell markdown">
+<hr />
+</div>
+<div id="fca438e7" class="cell markdown">
+<h1 id="1-environment-setup">1. Environment Setup</h1>
+</div>
+<div id="0d4b9d40" class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> nbimporter</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> get_raw_data</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> logging</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> jinja2 <span class="im">import</span> Template</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql <span class="im">import</span> SparkSession, functions <span class="im">as</span> F, types <span class="im">as</span> T</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> folium</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib <span class="im">as</span> mpl</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> folium.plugins <span class="im">import</span> HeatMap</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sys</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> io <span class="im">import</span> StringIO</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns </span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.ml.feature <span class="im">import</span> Bucketizer</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co"># options to dispaly dfs </span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>pd.options.display.float_format <span class="op">=</span> <span class="st">&#39;{:,.0f}&#39;</span>.<span class="bu">format</span>  <span class="co"># Adjust number format if needed</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>pd.set_option(<span class="st">&quot;display.colheader_justify&quot;</span>, <span class="st">&quot;center&quot;</span>)  <span class="co"># Center column headers</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Configure logging explicitly for Jupyter Notebook</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>logger <span class="op">=</span> logging.getLogger()  <span class="co"># Get the root logger</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="kw">not</span> logger.hasHandlers():  <span class="co"># Avoid adding multiple handlers in Jupyter Notebook</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    handler <span class="op">=</span> logging.StreamHandler()  <span class="co"># Log to the notebook output cell</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    formatter <span class="op">=</span> logging.Formatter(<span class="st">&quot;</span><span class="sc">%(asctime)s</span><span class="st"> - </span><span class="sc">%(levelname)s</span><span class="st"> - </span><span class="sc">%(message)s</span><span class="st">&quot;</span>)</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    handler.setFormatter(formatter)</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    logger.addHandler(handler)</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>logger.setLevel(logging.INFO)</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Set JAVA_HOME and update PATH</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="co">#os.environ[&#39;JAVA_HOME&#39;] = r&#39;C:\Users\USER\AppData\Local\Programs\Eclipse Adoptium\jdk-11.0.26.4-hotspot&#39;</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="co">#os.environ[&#39;PATH&#39;] = os.environ[&#39;JAVA_HOME&#39;] + r&#39;\bin;&#39; + os.environ[&#39;PATH&#39;]</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="co">#print(&quot;JAVA_HOME:&quot;, os.environ.get(&#39;JAVA_HOME&#39;))</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="co"># Start PySpark session</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>spark <span class="op">=</span> SparkSession.builder <span class="op">\</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>    .appName(<span class="st">&quot;NYC Bike Sharing Analysis&quot;</span>) <span class="op">\</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>    .getOrCreate()</span></code></pre></div>
+</div>
+<div id="48031909" class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>BASE_URL <span class="op">=</span>  <span class="st">&quot;https://s3.amazonaws.com/tripdata/index.html&quot;</span>  <span class="co"># Replace with the actual base URL</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>RAW_FOLDER <span class="op">=</span> <span class="st">&quot;01raw&quot;</span>                  <span class="co"># Folder to store raw ZIP files and extracted CSVs</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>EXTRACT_SUBFOLDER <span class="op">=</span> <span class="st">&quot;csv_files&quot;</span>       <span class="co"># Subfolder for extracted CSV files</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>CLEANED_FOLDER <span class="op">=</span> <span class="st">&quot;02cleansed&quot;</span>         <span class="co"># Folder to store the final Parquet file</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>PARQUET_FILE <span class="op">=</span> <span class="st">&quot;cleaned_data.parquet&quot;</span> <span class="co"># Name of the cleansed Parquet file</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>TIMESTAMP <span class="op">=</span> <span class="st">&quot;202412&quot;</span>                  <span class="co"># Use &quot;latest&quot; or a specific timestamp like &quot;202006&quot;</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co"># fetches one month of bike sharing data and provides parqeuts file</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># function defined in get_raw_data notebook</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>result <span class="op">=</span> get_raw_data.get_newest_data(</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    base_url<span class="op">=</span>BASE_URL,</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    raw_folder<span class="op">=</span>RAW_FOLDER,</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    extract_subfolder<span class="op">=</span>EXTRACT_SUBFOLDER,</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    cleaned_folder<span class="op">=</span>CLEANED_FOLDER,</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    parquet_file<span class="op">=</span>PARQUET_FILE,</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    timestamp<span class="op">=</span>TIMESTAMP,</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    force_download<span class="op">=</span><span class="va">False</span> <span class="co"># Set to true for forcing download</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> result:</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>    logging.info(<span class="ss">f&quot;Process complete. Parquet file available at: </span><span class="sc">{</span>result<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    logging.error(<span class="st">&quot;Process failed.&quot;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>2025-02-09 19:47:23,039 - INFO - Fetching ZIP file links...
+2025-02-09 19:47:23,043 - INFO - ====== WebDriver manager ======
+2025-02-09 19:47:25,187 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-09 19:47:25,959 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-09 19:47:26,671 - INFO - Driver [C:\Users\de128574\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-09 19:47:34,483 - INFO - Target ZIP file: 202412-citibike-tripdata.zip
+2025-02-09 19:47:34,485 - INFO - Clearing raw and cleansed folders for new data download...
+2025-02-09 19:48:47,318 - INFO - Downloaded: 01raw\202412-citibike-tripdata.zip
+2025-02-09 19:48:48,033 - INFO - Extracted 01raw\202412-citibike-tripdata.zip to 01raw\csv_files
+2025-02-09 19:48:48,036 - INFO - Converting 01raw\csv_files\202412-citibike-tripdata_1.csv to Parquet...
+2025-02-09 19:48:58,053 - INFO - Loaded CSV file: 01raw\csv_files\202412-citibike-tripdata_1.csv
+2025-02-09 19:49:09,186 - INFO - Converted 01raw\csv_files\202412-citibike-tripdata_1.csv to Parquet: 02cleansed\cleaned_data.parquet
+2025-02-09 19:49:09,346 - INFO - Process complete. Parquet file available at: 02cleansed\cleaned_data.parquet
+</code></pre>
+</div>
+</div>
+<div id="ed364e4c" class="cell markdown">
+<hr />
+</div>
+<div id="8b8fbc9f" class="cell markdown">
+<h2 id="1-data-quality-review">1. Data Quality Review</h2>
+<p>This section, verifys that the data is accurate and complete enough
+to support meaningful analysis. By catching issues early such as invalid
+timestamps, missing station details, or duplicate ID</p>
+<ul>
+<li><strong>Convert timestamps:</strong> Transform the
+<code>started_at</code> and <code>ended_at</code> fields into proper
+timestamp formats.</li>
+<li><strong>Compute ride durations:</strong> Calculate the duration of
+each ride in seconds and minutes.</li>
+<li><strong>Validate station information:</strong> Identify missing
+station names that could affect route analysis.</li>
+<li><strong>Check coordinate validity:</strong> Ensure that the latitude
+and longitude values are within valid ranges.</li>
+<li><strong>Detect duplicates:</strong> Identify any duplicate ride IDs
+that might indicate data quality issues.</li>
+</ul>
+</div>
+<div id="fb97a81c" class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Read data into df</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> spark.read.parquet(CLEANED_FOLDER <span class="op">+</span> <span class="st">&quot;/&quot;</span> <span class="op">+</span> PARQUET_FILE)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Initial Schema:&quot;</span>)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>df.printSchema()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Initial Schema:
+root
+ |-- ride_id: double (nullable = true)
+ |-- rideable_type: string (nullable = true)
+ |-- started_at: string (nullable = true)
+ |-- ended_at: string (nullable = true)
+ |-- start_station_name: string (nullable = true)
+ |-- start_station_id: double (nullable = true)
+ |-- end_station_name: string (nullable = true)
+ |-- end_station_id: double (nullable = true)
+ |-- start_lat: string (nullable = true)
+ |-- start_lng: string (nullable = true)
+ |-- end_lat: string (nullable = true)
+ |-- end_lng: string (nullable = true)
+ |-- member_casual: string (nullable = true)
+
+</code></pre>
+</div>
+</div>
+<div id="aa14f4c6" class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Only necessary for Report in the end</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Capture schema as a formatted string</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="bu">buffer</span> <span class="op">=</span> StringIO()</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>original_stdout <span class="op">=</span> sys.stdout  <span class="co"># Save the original stdout</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    sys.stdout <span class="op">=</span> <span class="bu">buffer</span>  </span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    df.printSchema()  </span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="cf">finally</span>:</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    sys.stdout <span class="op">=</span> original_stdout  </span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Process the captured schema</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>schema_str <span class="op">=</span> <span class="bu">buffer</span>.getvalue() </span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>schema_html <span class="op">=</span> schema_str.replace(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>, <span class="st">&quot;&lt;br&gt;&quot;</span>)</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a> </span></code></pre></div>
+</div>
+<div id="576a80e5" class="cell markdown">
+<p>### 1.1 Timestamp Conversion and Validation</p>
+<p>Convert the <code>started_at</code> and <code>ended_at</code> columns
+to timestamp types. Then, check for rows where conversion fails.</p>
+</div>
+<div id="0a38fbe4" class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df.withColumn(<span class="st">&quot;started_at_ts&quot;</span>, F.to_timestamp(<span class="st">&quot;started_at&quot;</span>)) <span class="op">\</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>       .withColumn(<span class="st">&quot;ended_at_ts&quot;</span>, F.to_timestamp(<span class="st">&quot;ended_at&quot;</span>))</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Identify rows with invalid timestamps</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>invalid_ts_df <span class="op">=</span> df.<span class="bu">filter</span>(F.col(<span class="st">&quot;started_at_ts&quot;</span>).isNull() <span class="op">|</span> F.col(<span class="st">&quot;ended_at_ts&quot;</span>).isNull())</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>invalid_ts_count <span class="op">=</span> invalid_ts_df.count()</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Rows with invalid timestamps: </span><span class="sc">{</span>invalid_ts_count<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Rows with invalid timestamps: 0
+</code></pre>
+</div>
+</div>
+<div id="3dfbc848" class="cell markdown">
+<p>### 1.2 Ride Duration Calculation and Anomaly Detection</p>
+<p>Compute ride duration in seconds and minutes. Flag rides with
+non-positive (zero or negative) durations.</p>
+</div>
+<div id="78581e6c" class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df.withColumn(<span class="st">&quot;duration_sec&quot;</span>, </span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>                   F.unix_timestamp(<span class="st">&quot;ended_at_ts&quot;</span>) <span class="op">-</span> F.unix_timestamp(<span class="st">&quot;started_at_ts&quot;</span>)) <span class="op">\</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>       .withColumn(<span class="st">&quot;duration_min&quot;</span>, F.col(<span class="st">&quot;duration_sec&quot;</span>) <span class="op">/</span> <span class="dv">60</span>)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Find rides with non-positive durations</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>invalid_duration_df <span class="op">=</span> df.<span class="bu">filter</span>(F.col(<span class="st">&quot;duration_min&quot;</span>) <span class="op">&lt;=</span> <span class="dv">0</span>)</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>invalid_duration_count <span class="op">=</span> invalid_duration_df.count()</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Rows with non-positive ride durations (&lt;= 0 minutes): </span><span class="sc">{</span>invalid_duration_count<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Show summary statistics for ride duration</span></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Ride Duration (minutes) Summary:&quot;</span>)</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>df.select(<span class="st">&quot;duration_min&quot;</span>).describe().show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Rows with non-positive ride durations (&lt;= 0 minutes): 0
+Ride Duration (minutes) Summary:
++-------+------------------+
+|summary|      duration_min|
++-------+------------------+
+|  count|           1000000|
+|   mean|10.568523449999255|
+| stddev| 26.91107922348566|
+|    min|1.0166666666666666|
+|    max|1499.9666666666667|
++-------+------------------+
+
+</code></pre>
+</div>
+</div>
+<div id="f67dfa47" class="cell markdown">
+<p>### 1.3 Station Information Validation Check for missing start or end
+station names which could affect route and popularity analyses.</p>
+</div>
+<div id="8c163917" class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>missing_station_df <span class="op">=</span> df.<span class="bu">filter</span>(F.col(<span class="st">&quot;start_station_name&quot;</span>).isNull() <span class="op">|</span> F.col(<span class="st">&quot;end_station_name&quot;</span>).isNull())</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>missing_station_count <span class="op">=</span> missing_station_df.count()</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Rows with missing station names: </span><span class="sc">{</span>missing_station_count<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Rows with missing station names: 3957
+</code></pre>
+</div>
+</div>
+<div id="071c68fd" class="cell markdown">
+<p>### 1.4 Coordinate Conversion and Validation</p>
+<p>Convert the coordinate columns to <code>double</code> and ensure that
+latitude values lie between -90 and 90 and longitude values between -180
+and 180.</p>
+</div>
+<div id="2fde7902" class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>coordinate_cols <span class="op">=</span> [<span class="st">&quot;start_lat&quot;</span>, <span class="st">&quot;start_lng&quot;</span>, <span class="st">&quot;end_lat&quot;</span>, <span class="st">&quot;end_lng&quot;</span>]</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> coordinate_cols:</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> df.withColumn(col, F.col(col).cast(<span class="st">&quot;double&quot;</span>))</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>invalid_coords_df <span class="op">=</span> df.<span class="bu">filter</span>(</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>    (F.col(<span class="st">&quot;start_lat&quot;</span>).isNull()) <span class="op">|</span> (F.col(<span class="st">&quot;start_lng&quot;</span>).isNull()) <span class="op">|</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>    (F.col(<span class="st">&quot;end_lat&quot;</span>).isNull())   <span class="op">|</span> (F.col(<span class="st">&quot;end_lng&quot;</span>).isNull())   <span class="op">|</span></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>    (F.col(<span class="st">&quot;start_lat&quot;</span>) <span class="op">&lt;</span> <span class="op">-</span><span class="dv">90</span>) <span class="op">|</span> (F.col(<span class="st">&quot;start_lat&quot;</span>) <span class="op">&gt;</span> <span class="dv">90</span>) <span class="op">|</span></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>    (F.col(<span class="st">&quot;end_lat&quot;</span>) <span class="op">&lt;</span> <span class="op">-</span><span class="dv">90</span>)   <span class="op">|</span> (F.col(<span class="st">&quot;end_lat&quot;</span>) <span class="op">&gt;</span> <span class="dv">90</span>)   <span class="op">|</span></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>    (F.col(<span class="st">&quot;start_lng&quot;</span>) <span class="op">&lt;</span> <span class="op">-</span><span class="dv">180</span>) <span class="op">|</span> (F.col(<span class="st">&quot;start_lng&quot;</span>) <span class="op">&gt;</span> <span class="dv">180</span>) <span class="op">|</span></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>    (F.col(<span class="st">&quot;end_lng&quot;</span>) <span class="op">&lt;</span> <span class="op">-</span><span class="dv">180</span>)   <span class="op">|</span> (F.col(<span class="st">&quot;end_lng&quot;</span>) <span class="op">&gt;</span> <span class="dv">180</span>)</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>invalid_coords_count <span class="op">=</span> invalid_coords_df.count()</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Rows with invalid or missing coordinate values: </span><span class="sc">{</span>invalid_coords_count<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Rows with invalid or missing coordinate values: 205
+</code></pre>
+</div>
+</div>
+<div id="65015e54" class="cell markdown">
+<p>### 1.5 Duplicate Ride ID Detection</p>
+<p>Identify duplicate ride IDs to ensure data integrity.</p>
+</div>
+<div id="a691e1a3" class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>duplicate_ids_df <span class="op">=</span> df.groupBy(<span class="st">&quot;ride_id&quot;</span>).count().<span class="bu">filter</span>(F.col(<span class="st">&quot;count&quot;</span>) <span class="op">&gt;</span> <span class="dv">1</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>duplicate_ids_count <span class="op">=</span> duplicate_ids_df.count()</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Number of duplicate ride_id entries: </span><span class="sc">{</span>duplicate_ids_count<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Number of duplicate ride_id entries: 2
+</code></pre>
+</div>
+</div>
+<div id="277eb7c9" class="cell markdown">
+<p>### 1.6 Data Quality Summary</p>
+<p>Summarize the quality issues to understand potential impacts on our
+analysis.</p>
+</div>
+<div id="0435bd4f" class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>total_rows <span class="op">=</span> df.count()</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>quality_summary <span class="op">=</span> {</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Total_Rows&quot;</span>: total_rows,</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Invalid_Timestamps&quot;</span>: invalid_ts_count,</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Non_Positive_Durations&quot;</span>: invalid_duration_count,</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Missing_Station_Names&quot;</span>: missing_station_count,</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Invalid_Coordinates&quot;</span>: invalid_coords_count,</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Duplicate_Ride_IDs&quot;</span>: duplicate_ids_count</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>quality_summary_df <span class="op">=</span> pd.DataFrame([quality_summary])</span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Data Quality Summary:&quot;</span>)</span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a>display(quality_summary_df)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Data Quality Summary:
+</code></pre>
+</div>
+<div class="output display_data">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>Total_Rows</th>
+      <th>Invalid_Timestamps</th>
+      <th>Non_Positive_Durations</th>
+      <th>Missing_Station_Names</th>
+      <th>Invalid_Coordinates</th>
+      <th>Duplicate_Ride_IDs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1000000</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3957</td>
+      <td>205</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="76bed63f" class="cell markdown">
+<h3 id="key-observations">Key Observations</h3>
+<ul>
+<li><p><strong>Successful Timestamp Conversion</strong><br />
+All timestamps were transformed without errors, making time-based
+computations straightforward.</p></li>
+<li><p><strong>No Zero-Duration Rides</strong><br />
+No entries had a non-positive ride duration, indicating minimal data
+entry errors and a generally healthy dataset.</p></li>
+<li><p><strong>Minor Data Gaps</strong><br />
+A small percentage of rows contained missing station names or invalid
+coordinate values. These can be flagged or excluded to preserve the
+integrity of subsequent analyses.</p></li>
+<li><p><strong>Few Duplicate IDs</strong><br />
+Only a handful of duplicate ride IDs appeared. After addressing these
+cases, the dataset is largely free from duplication.</p></li>
+</ul>
+<p>Overall, these checks confirm our data is sufficiently robust for the
+upcoming analysis.</p>
+</div>
+<div id="07c4fa4c" class="cell markdown">
+<hr />
+</div>
+<div id="0d417271" class="cell markdown">
+<h2 id="2-core-calculations">2. Core Calculations</h2>
+<p>The primary goal here is to evaluate whether introducing an insurance
+product for rides longer than 30 minutes makes business sense. We focus
+on three key questions:</p>
+<ol>
+<li><p><strong>Coverage</strong><br />
+How many rides exceed 30 minutes?</p></li>
+<li><p><strong>Revenue</strong><br />
+If we charge $0.20 for each eligible ride, how much additional revenue
+could this generate?</p></li>
+<li><p><strong>Distance Distribution</strong><br />
+How do rides break down across different travel distance categories
+(0–1, 2–4, 4–9, and 10+ miles)?</p></li>
+</ol>
+<h3 id="methodology">Methodology</h3>
+<ul>
+<li><p><strong>Ride Duration</strong><br />
+We converted the <code>started_at</code> and <code>ended_at</code>
+columns to timestamps and computed each ride’s duration in minutes. Any
+ride over 30 minutes was labeled as eligible for the proposed insurance
+fee.</p></li>
+<li><p><strong>Distance Calculation</strong><br />
+Using the Haversine formula, we calculated the distance for each trip
+based on the start and end coordinates. We then grouped these distances
+into four buckets:</p>
+<ul>
+<li><strong>0–1 miles</strong><br />
+</li>
+<li><strong>2–4 miles</strong><br />
+</li>
+<li><strong>4–9 miles</strong><br />
+</li>
+<li><strong>10+ miles</strong></li>
+</ul></li>
+</ul>
+<p>These foundational calculations allow us to assess how many rides
+could be covered, estimate potential revenue, and understand typical
+travel ranges.</p>
+</div>
+<div id="50785a6c" class="cell markdown">
+<p>### 2.1 Insurance Coverage and Revenue Analysis</p>
+<p>Identify rides longer than 30 minutes and calculate the expected
+insurance revenue.</p>
+</div>
+<div id="ee7694a7" class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>insured_trips_df <span class="op">=</span> df.<span class="bu">filter</span>(F.col(<span class="st">&quot;duration_min&quot;</span>) <span class="op">&gt;</span> <span class="dv">30</span>)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>insured_count <span class="op">=</span> insured_trips_df.count()</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>insurance_charge <span class="op">=</span> <span class="fl">0.20</span>  <span class="co"># USD per qualifying ride</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>expected_revenue <span class="op">=</span> insured_count <span class="op">*</span> insurance_charge</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Number of rides lasting &gt; 30 minutes: </span><span class="sc">{</span>insured_count<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Expected insurance revenue (@ $</span><span class="sc">{</span>insurance_charge<span class="sc">:.2f}</span><span class="ss"> per ride): $</span><span class="sc">{</span>expected_revenue<span class="sc">:.2f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Number of rides lasting &gt; 30 minutes: 33104
+Expected insurance revenue (@ $0.20 per ride): $6620.80
+</code></pre>
+</div>
+</div>
+<div id="7a87345f" class="cell markdown">
+<p>### 2.2 Distance Calculation and Bucketization</p>
+<p>We calculate the ride distance using the Haversine formula. Then, we
+assign each ride into one of the following buckets:</p>
+<ul>
+<li><strong>"0-1"</strong>: distance ≤ 1 mile</li>
+<li><strong>"2-4"</strong>: 1 &lt; distance ≤ 4 miles</li>
+<li><strong>"4-9"</strong>: 4 &lt; distance ≤ 9 miles</li>
+<li><strong>"10+"</strong>: distance &gt; 9 miles</li>
+</ul>
+</div>
+<div id="035d1fb5" class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>R <span class="op">=</span> <span class="fl">3959.0</span>  <span class="co"># Earth&#39;s radius in miles</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate differences in radians</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df.withColumn(<span class="st">&quot;delta_lat&quot;</span>, F.radians(F.col(<span class="st">&quot;end_lat&quot;</span>) <span class="op">-</span> F.col(<span class="st">&quot;start_lat&quot;</span>))) <span class="op">\</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>       .withColumn(<span class="st">&quot;delta_lng&quot;</span>, F.radians(F.col(<span class="st">&quot;end_lng&quot;</span>) <span class="op">-</span> F.col(<span class="st">&quot;start_lng&quot;</span>))) <span class="op">\</span></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>       .withColumn(<span class="st">&quot;start_lat_rad&quot;</span>, F.radians(F.col(<span class="st">&quot;start_lat&quot;</span>))) <span class="op">\</span></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>       .withColumn(<span class="st">&quot;end_lat_rad&quot;</span>, F.radians(F.col(<span class="st">&quot;end_lat&quot;</span>)))</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply the Haversine formula</span></span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df.withColumn(<span class="st">&quot;a&quot;</span>, F.<span class="bu">pow</span>(F.sin(F.col(<span class="st">&quot;delta_lat&quot;</span>) <span class="op">/</span> <span class="dv">2</span>), <span class="dv">2</span>) <span class="op">+</span></span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>                   F.cos(F.col(<span class="st">&quot;start_lat_rad&quot;</span>)) <span class="op">*</span> F.cos(F.col(<span class="st">&quot;end_lat_rad&quot;</span>)) <span class="op">*</span></span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>                   F.<span class="bu">pow</span>(F.sin(F.col(<span class="st">&quot;delta_lng&quot;</span>) <span class="op">/</span> <span class="dv">2</span>), <span class="dv">2</span>)) <span class="op">\</span></span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>       .withColumn(<span class="st">&quot;c&quot;</span>, <span class="dv">2</span> <span class="op">*</span> F.asin(F.sqrt(F.col(<span class="st">&quot;a&quot;</span>)))) <span class="op">\</span></span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>       .withColumn(<span class="st">&quot;distance&quot;</span>, F.lit(R) <span class="op">*</span> F.col(<span class="st">&quot;c&quot;</span>))</span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Bucket the distances</span></span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df.withColumn(<span class="st">&quot;distance_bucket&quot;</span>, </span>
+<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a>                   F.when(F.col(<span class="st">&quot;distance&quot;</span>) <span class="op">&lt;=</span> <span class="dv">1</span>, <span class="st">&quot;0-1&quot;</span>)</span>
+<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a>                    .when((F.col(<span class="st">&quot;distance&quot;</span>) <span class="op">&gt;</span> <span class="dv">1</span>) <span class="op">&amp;</span> (F.col(<span class="st">&quot;distance&quot;</span>) <span class="op">&lt;=</span> <span class="dv">4</span>), <span class="st">&quot;2-4&quot;</span>)</span>
+<span id="cb21-20"><a href="#cb21-20" aria-hidden="true" tabindex="-1"></a>                    .when((F.col(<span class="st">&quot;distance&quot;</span>) <span class="op">&gt;</span> <span class="dv">4</span>) <span class="op">&amp;</span> (F.col(<span class="st">&quot;distance&quot;</span>) <span class="op">&lt;=</span> <span class="dv">9</span>), <span class="st">&quot;4-9&quot;</span>)</span>
+<span id="cb21-21"><a href="#cb21-21" aria-hidden="true" tabindex="-1"></a>                    .otherwise(<span class="st">&quot;10+&quot;</span>)</span>
+<span id="cb21-22"><a href="#cb21-22" aria-hidden="true" tabindex="-1"></a>                  )</span>
+<span id="cb21-23"><a href="#cb21-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-24"><a href="#cb21-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Aggregate ride counts per distance bucket and convert to Pandas for visualization</span></span>
+<span id="cb21-25"><a href="#cb21-25" aria-hidden="true" tabindex="-1"></a>buckets_df <span class="op">=</span> df.groupBy(<span class="st">&quot;distance_bucket&quot;</span>).count().orderBy(<span class="st">&quot;distance_bucket&quot;</span>)</span>
+<span id="cb21-26"><a href="#cb21-26" aria-hidden="true" tabindex="-1"></a>buckets_pdf <span class="op">=</span> buckets_df.toPandas()</span>
+<span id="cb21-27"><a href="#cb21-27" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Distance Bucket Distribution:&quot;</span>)</span>
+<span id="cb21-28"><a href="#cb21-28" aria-hidden="true" tabindex="-1"></a>display(buckets_pdf)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Distance Bucket Distribution:
+</code></pre>
+</div>
+<div class="output display_data">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>distance_bucket</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0-1</td>
+      <td>593723</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10+</td>
+      <td>371</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2-4</td>
+      <td>387713</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4-9</td>
+      <td>18193</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="b9dabefb" class="cell markdown">
+<h3 id="observations">Observations</h3>
+<ul>
+<li><p><strong>Coverage</strong><br />
+A total of <strong>33,104 rides</strong> exceeded 30 minutes.</p></li>
+<li><p><strong>Revenue</strong><br />
+At a rate of $0.20 for each ride over 30 minutes, the projected
+<strong>additional revenue</strong> is
+<strong>$6,620.80</strong>.</p></li>
+<li><p><strong>Distance Distribution</strong></p>
+<ul>
+<li><strong>0–1 miles:</strong> 593,723 rides<br />
+</li>
+<li><strong>2–4 miles:</strong> 387,713 rides<br />
+</li>
+<li><strong>4–9 miles:</strong> 18,193 rides<br />
+</li>
+<li><strong>10+ miles:</strong> 371 rides</li>
+</ul></li>
+</ul>
+<p>Collectively, these figures provide a clear picture of both the scale
+and the potential financial opportunity of an insurance offering.</p>
+</div>
+<div id="998214ad" class="cell markdown">
+<hr />
+</div>
+<div id="226854cb" class="cell markdown">
+<h2 id="3-visualizations">3. Visualizations</h2>
+<p>For the understanding of the data and confirm the insights from our
+calculations, we’ve generated a series of visualizations. These charts
+visualize the fidnigns reagind the analysis, although some report are
+created for a better understanding and overveiw of the data, a clear
+distinction is made in the final rpeort:</p>
+<ul>
+<li><p><strong>Ride Duration Distribution by Membership</strong><br />
+A histogram comparing ride durations for members versus casual riders.
+This helps identify differences in typical ride lengths across user
+groups.</p></li>
+<li><p><strong>Hourly Ride Counts</strong><br />
+A line chart displaying the number of rides across each hour of the day.
+It reveals peak usage times and provides a sense of when demand for the
+service is highest.</p></li>
+<li><p><strong>Distance Bucket Distribution</strong><br />
+A bar chart illustrating how many rides fall into each distance bucket
+(0–1, 2–4, 4–9, and 10+ miles). This visualization makes it clear where
+most users’ trips cluster in terms of total distance traveled.</p></li>
+</ul>
+</div>
+<div id="3edb5f1d" class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> {</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;primary&quot;</span>: <span class="st">&quot;#FF7900&quot;</span>,     <span class="co"># A strong orange</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;secondary&quot;</span>: <span class="st">&quot;#FFB84D&quot;</span>,   <span class="co"># A lighter orange</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;tertiary&quot;</span>: <span class="st">&quot;#FFCC99&quot;</span>,    <span class="co"># Even lighter orange</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;quaternary&quot;</span>: <span class="st">&quot;#FFDAB3&quot;</span>   <span class="co"># A very light orange</span></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>sns.set_theme(style<span class="op">=</span><span class="st">&quot;whitegrid&quot;</span>, palette<span class="op">=</span>[colors[<span class="st">&quot;primary&quot;</span>], colors[<span class="st">&quot;secondary&quot;</span>], colors[<span class="st">&quot;tertiary&quot;</span>], colors[<span class="st">&quot;quaternary&quot;</span>]])</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>mpl.rcParams.update({</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;font.size&#39;</span>: <span class="dv">12</span>,</span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;axes.titlesize&#39;</span>: <span class="dv">18</span>,</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;axes.titleweight&#39;</span>: <span class="st">&#39;bold&#39;</span>,</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;axes.labelsize&#39;</span>: <span class="dv">14</span>,</span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;figure.figsize&#39;</span>: (<span class="dv">8</span>, <span class="dv">6</span>),</span>
+<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a>})</span></code></pre></div>
+</div>
+<div id="ed1710f7" class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> save_figure(fig, filename, dpi<span class="op">=</span><span class="dv">300</span>):</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>    folder <span class="op">=</span> <span class="st">&quot;03results&quot;</span></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> os.path.exists(folder):</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>        os.makedirs(folder)</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Created folder: </span><span class="sc">{</span>folder<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Save the figure to the specified file</span></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>    fig.savefig(<span class="ss">f&quot;</span><span class="sc">{</span>folder<span class="sc">}</span><span class="ss">/</span><span class="sc">{</span>filename<span class="sc">}</span><span class="ss">&quot;</span>, dpi<span class="op">=</span>dpi, <span class="bu">format</span><span class="op">=</span><span class="st">&quot;png&quot;</span>, bbox_inches<span class="op">=</span><span class="st">&quot;tight&quot;</span>)</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Saved: </span><span class="sc">{</span>folder<span class="sc">}</span><span class="ss">/</span><span class="sc">{</span>filename<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> style_axes(ax, title, xlabel, ylabel):</span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Apply consistent styling to axes.&quot;&quot;&quot;</span></span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a>    ax.set_title(title, fontsize<span class="op">=</span><span class="dv">18</span>, weight<span class="op">=</span><span class="st">&quot;bold&quot;</span>, color<span class="op">=</span><span class="st">&quot;#2c3e50&quot;</span>, pad<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a>    ax.set_xlabel(xlabel, fontsize<span class="op">=</span><span class="dv">14</span>, labelpad<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a>    ax.set_ylabel(ylabel, fontsize<span class="op">=</span><span class="dv">14</span>, labelpad<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a>    ax.tick_params(axis<span class="op">=</span><span class="st">&quot;x&quot;</span>, labelsize<span class="op">=</span><span class="dv">12</span>)</span>
+<span id="cb24-17"><a href="#cb24-17" aria-hidden="true" tabindex="-1"></a>    ax.tick_params(axis<span class="op">=</span><span class="st">&quot;y&quot;</span>, labelsize<span class="op">=</span><span class="dv">12</span>)</span>
+<span id="cb24-18"><a href="#cb24-18" aria-hidden="true" tabindex="-1"></a>    ax.grid(axis<span class="op">=</span><span class="st">&quot;y&quot;</span>, linestyle<span class="op">=</span><span class="st">&quot;--&quot;</span>, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
+<span id="cb24-19"><a href="#cb24-19" aria-hidden="true" tabindex="-1"></a>    </span></code></pre></div>
+</div>
+<div id="a0e2d2b7" class="cell markdown">
+<h3 id="figure-1-ride-duration-distribution-by-membership">Figure 1:
+Ride Duration Distribution by Membership</h3>
+<p>histogram of ride durations broken down by membership type (e.g.,
+"member" versus "casual"). helps us understand how ride durations differ
+between user groups and identifies which group is more likely to have
+longer rides—information that is critical for assessing the potential
+market for the insurance product.</p>
+</div>
+<div id="7bbc3d3a" class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_ride_duration_distribution(hist_pdf, bucket_order):</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>    fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">8</span>))</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>    width <span class="op">=</span> <span class="fl">0.4</span>  <span class="co"># Bar width</span></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>    membership_types <span class="op">=</span> hist_pdf[<span class="st">&quot;member_casual&quot;</span>].unique()</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Assign a color to each membership type consistently</span></span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>    color_map <span class="op">=</span> {</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>        membership_types[<span class="dv">0</span>]: colors[<span class="st">&quot;secondary&quot;</span>],</span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>        membership_types[<span class="dv">1</span>]: colors[<span class="st">&quot;primary&quot;</span>]</span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i, mtype <span class="kw">in</span> <span class="bu">enumerate</span>(membership_types):</span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>        subset <span class="op">=</span> hist_pdf[hist_pdf[<span class="st">&quot;member_casual&quot;</span>] <span class="op">==</span> mtype]</span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Determine x positions based on the bucket order indices</span></span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a>        x_positions <span class="op">=</span> [bucket_order.index(bin_label) <span class="cf">for</span> bin_label <span class="kw">in</span> subset[<span class="st">&quot;duration_bin&quot;</span>]]</span>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a>        offset <span class="op">=</span> width <span class="op">*</span> (i <span class="op">-</span> <span class="fl">0.5</span>)</span>
+<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a>        ax.bar(</span>
+<span id="cb25-18"><a href="#cb25-18" aria-hidden="true" tabindex="-1"></a>            [pos <span class="op">+</span> offset <span class="cf">for</span> pos <span class="kw">in</span> x_positions],</span>
+<span id="cb25-19"><a href="#cb25-19" aria-hidden="true" tabindex="-1"></a>            subset[<span class="st">&quot;count&quot;</span>],</span>
+<span id="cb25-20"><a href="#cb25-20" aria-hidden="true" tabindex="-1"></a>            width<span class="op">=</span>width,</span>
+<span id="cb25-21"><a href="#cb25-21" aria-hidden="true" tabindex="-1"></a>            alpha<span class="op">=</span><span class="fl">0.8</span>,</span>
+<span id="cb25-22"><a href="#cb25-22" aria-hidden="true" tabindex="-1"></a>            label<span class="op">=</span>mtype.capitalize(),</span>
+<span id="cb25-23"><a href="#cb25-23" aria-hidden="true" tabindex="-1"></a>            edgecolor<span class="op">=</span><span class="st">&quot;black&quot;</span>,</span>
+<span id="cb25-24"><a href="#cb25-24" aria-hidden="true" tabindex="-1"></a>            color<span class="op">=</span>color_map[mtype]</span>
+<span id="cb25-25"><a href="#cb25-25" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb25-26"><a href="#cb25-26" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb25-27"><a href="#cb25-27" aria-hidden="true" tabindex="-1"></a>    ax.set_xticks(<span class="bu">range</span>(<span class="bu">len</span>(bucket_order)))</span>
+<span id="cb25-28"><a href="#cb25-28" aria-hidden="true" tabindex="-1"></a>    ax.set_xticklabels(bucket_order, rotation<span class="op">=</span><span class="dv">45</span>, fontsize<span class="op">=</span><span class="dv">12</span>)</span>
+<span id="cb25-29"><a href="#cb25-29" aria-hidden="true" tabindex="-1"></a>    style_axes(ax, <span class="st">&quot;Ride Duration Distribution by Membership Type&quot;</span>, <span class="st">&quot;Ride Duration Buckets&quot;</span>, <span class="st">&quot;Number of Rides&quot;</span>)</span>
+<span id="cb25-30"><a href="#cb25-30" aria-hidden="true" tabindex="-1"></a>    ax.legend(title<span class="op">=</span><span class="st">&quot;Membership Type&quot;</span>, title_fontsize<span class="op">=</span><span class="dv">13</span>, fontsize<span class="op">=</span><span class="dv">12</span>, loc<span class="op">=</span><span class="st">&quot;upper right&quot;</span>, frameon<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb25-31"><a href="#cb25-31" aria-hidden="true" tabindex="-1"></a>    plt.tight_layout()</span>
+<span id="cb25-32"><a href="#cb25-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> fig</span>
+<span id="cb25-33"><a href="#cb25-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-34"><a href="#cb25-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-35"><a href="#cb25-35" aria-hidden="true" tabindex="-1"></a><span class="co">#Define the bucket boundaries for duration in minutes</span></span>
+<span id="cb25-36"><a href="#cb25-36" aria-hidden="true" tabindex="-1"></a>splits <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">30</span>, <span class="dv">60</span>, <span class="bu">float</span>(<span class="st">&quot;inf&quot;</span>)]</span>
+<span id="cb25-37"><a href="#cb25-37" aria-hidden="true" tabindex="-1"></a>bucketizer <span class="op">=</span> Bucketizer(splits<span class="op">=</span>splits, inputCol<span class="op">=</span><span class="st">&quot;duration_min&quot;</span>, outputCol<span class="op">=</span><span class="st">&quot;duration_bin_numeric&quot;</span>)</span>
+<span id="cb25-38"><a href="#cb25-38" aria-hidden="true" tabindex="-1"></a>df_binned <span class="op">=</span> bucketizer.transform(df.select(<span class="st">&quot;member_casual&quot;</span>, <span class="st">&quot;duration_min&quot;</span>))</span>
+<span id="cb25-39"><a href="#cb25-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-40"><a href="#cb25-40" aria-hidden="true" tabindex="-1"></a><span class="co">#  Group by membership type and numeric bucket, then count rides in each group</span></span>
+<span id="cb25-41"><a href="#cb25-41" aria-hidden="true" tabindex="-1"></a>hist_df <span class="op">=</span> df_binned.groupBy(<span class="st">&quot;member_casual&quot;</span>, <span class="st">&quot;duration_bin_numeric&quot;</span>).count().orderBy(<span class="st">&quot;member_casual&quot;</span>, <span class="st">&quot;duration_bin_numeric&quot;</span>)</span>
+<span id="cb25-42"><a href="#cb25-42" aria-hidden="true" tabindex="-1"></a>hist_pdf <span class="op">=</span> hist_df.toPandas()</span>
+<span id="cb25-43"><a href="#cb25-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-44"><a href="#cb25-44" aria-hidden="true" tabindex="-1"></a><span class="co"># Bucket labels</span></span>
+<span id="cb25-45"><a href="#cb25-45" aria-hidden="true" tabindex="-1"></a>bucket_order <span class="op">=</span> [<span class="st">&quot;0-5 min&quot;</span>, <span class="st">&quot;5-10 min&quot;</span>, <span class="st">&quot;10-20 min&quot;</span>, <span class="st">&quot;20-30 min&quot;</span>, <span class="st">&quot;30-60 min&quot;</span>, <span class="st">&quot;60+ min&quot;</span>]</span>
+<span id="cb25-46"><a href="#cb25-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-47"><a href="#cb25-47" aria-hidden="true" tabindex="-1"></a><span class="co"># 6. Map the numeric bucket index to the corresponding label</span></span>
+<span id="cb25-48"><a href="#cb25-48" aria-hidden="true" tabindex="-1"></a>bucket_map <span class="op">=</span> {i: label <span class="cf">for</span> i, label <span class="kw">in</span> <span class="bu">enumerate</span>(bucket_order)}</span>
+<span id="cb25-49"><a href="#cb25-49" aria-hidden="true" tabindex="-1"></a>hist_pdf[<span class="st">&quot;duration_bin&quot;</span>] <span class="op">=</span> hist_pdf[<span class="st">&quot;duration_bin_numeric&quot;</span>].<span class="bu">map</span>(bucket_map)</span>
+<span id="cb25-50"><a href="#cb25-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-51"><a href="#cb25-51" aria-hidden="true" tabindex="-1"></a>fig1 <span class="op">=</span> plot_ride_duration_distribution(hist_pdf, bucket_order)</span>
+<span id="cb25-52"><a href="#cb25-52" aria-hidden="true" tabindex="-1"></a>save_figure(fig1, <span class="st">&quot;ride_duration_distribution.png&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Saved: 03results/ride_duration_distribution.png
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_2de4cfcb769e452fa40c19b62deed9c7/8a59f2a02ac20e478a98a8d00dcc7f836f77b4bb.png" /></p>
+</div>
+</div>
+<div id="b7499d71" class="cell markdown">
+<h3 id="figure-2-hourly-ride-counts">Figure 2: Hourly Ride Counts</h3>
+<p>This line chart displays the number of rides initiated during each
+hour of the day. It reveals temporal patterns in ride demand,
+highlighting the peak usage hours.</p>
+</div>
+<div id="9af26575" class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_hourly_ride_counts(hourly_rides_pdf):</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a><span class="co">    Plot hourly ride counts using a line plot with data labels.</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a><span class="co">    </span></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a><span class="co">    Parameters:</span></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a><span class="co">      - hourly_rides_pdf: Pandas DataFrame with columns &quot;start_hour&quot; and &quot;ride_count&quot;.</span></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>    fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Use the primary color from our global palette</span></span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a>    sns.lineplot(x<span class="op">=</span>hourly_rides_pdf[<span class="st">&quot;start_hour&quot;</span>],</span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a>                 y<span class="op">=</span>hourly_rides_pdf[<span class="st">&quot;ride_count&quot;</span>],</span>
+<span id="cb27-12"><a href="#cb27-12" aria-hidden="true" tabindex="-1"></a>                 marker<span class="op">=</span><span class="st">&quot;o&quot;</span>, color<span class="op">=</span>colors[<span class="st">&quot;primary&quot;</span>], linewidth<span class="op">=</span><span class="dv">2</span>, ax<span class="op">=</span>ax)</span>
+<span id="cb27-13"><a href="#cb27-13" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb27-14"><a href="#cb27-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Add text labels for each data point using the same primary color</span></span>
+<span id="cb27-15"><a href="#cb27-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> x, y <span class="kw">in</span> <span class="bu">zip</span>(hourly_rides_pdf[<span class="st">&quot;start_hour&quot;</span>], hourly_rides_pdf[<span class="st">&quot;ride_count&quot;</span>]):</span>
+<span id="cb27-16"><a href="#cb27-16" aria-hidden="true" tabindex="-1"></a>        ax.text(x, y <span class="op">+</span> <span class="dv">2</span>, <span class="ss">f&quot;</span><span class="sc">{</span>y<span class="sc">}</span><span class="ss">&quot;</span>, color<span class="op">=</span>colors[<span class="st">&quot;primary&quot;</span>], ha<span class="op">=</span><span class="st">&quot;center&quot;</span>, fontsize<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb27-17"><a href="#cb27-17" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb27-18"><a href="#cb27-18" aria-hidden="true" tabindex="-1"></a>    style_axes(ax, <span class="st">&quot;Hourly Ride Counts&quot;</span>, <span class="st">&quot;Hour of Day&quot;</span>, <span class="st">&quot;Number of Rides&quot;</span>)</span>
+<span id="cb27-19"><a href="#cb27-19" aria-hidden="true" tabindex="-1"></a>    ax.set_xticks(hourly_rides_pdf[<span class="st">&quot;start_hour&quot;</span>])</span>
+<span id="cb27-20"><a href="#cb27-20" aria-hidden="true" tabindex="-1"></a>    ax.set_xticklabels(hourly_rides_pdf[<span class="st">&quot;start_hour&quot;</span>], fontsize<span class="op">=</span><span class="dv">12</span>)</span>
+<span id="cb27-21"><a href="#cb27-21" aria-hidden="true" tabindex="-1"></a>    plt.tight_layout()</span>
+<span id="cb27-22"><a href="#cb27-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> fig</span>
+<span id="cb27-23"><a href="#cb27-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-24"><a href="#cb27-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-25"><a href="#cb27-25" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Fast Figure 2: Hourly Ride Counts ---</span></span>
+<span id="cb27-26"><a href="#cb27-26" aria-hidden="true" tabindex="-1"></a>hourly_rides_df <span class="op">=</span> (</span>
+<span id="cb27-27"><a href="#cb27-27" aria-hidden="true" tabindex="-1"></a>    df.withColumn(<span class="st">&quot;start_hour&quot;</span>, F.hour(<span class="st">&quot;started_at_ts&quot;</span>))</span>
+<span id="cb27-28"><a href="#cb27-28" aria-hidden="true" tabindex="-1"></a>      .groupBy(<span class="st">&quot;start_hour&quot;</span>)</span>
+<span id="cb27-29"><a href="#cb27-29" aria-hidden="true" tabindex="-1"></a>      .agg(F.count(<span class="st">&quot;ride_id&quot;</span>).alias(<span class="st">&quot;ride_count&quot;</span>))</span>
+<span id="cb27-30"><a href="#cb27-30" aria-hidden="true" tabindex="-1"></a>      .orderBy(<span class="st">&quot;start_hour&quot;</span>)</span>
+<span id="cb27-31"><a href="#cb27-31" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb27-32"><a href="#cb27-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert the small aggregated DataFrame to Pandas</span></span>
+<span id="cb27-33"><a href="#cb27-33" aria-hidden="true" tabindex="-1"></a>hourly_rides_pdf <span class="op">=</span> hourly_rides_df.toPandas()</span>
+<span id="cb27-34"><a href="#cb27-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-35"><a href="#cb27-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-36"><a href="#cb27-36" aria-hidden="true" tabindex="-1"></a>fig2 <span class="op">=</span> plot_hourly_ride_counts(hourly_rides_pdf)</span>
+<span id="cb27-37"><a href="#cb27-37" aria-hidden="true" tabindex="-1"></a>save_figure(fig2, <span class="st">&quot;hourly_ride_counts.png&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Saved: 03results/hourly_ride_counts.png
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_2de4cfcb769e452fa40c19b62deed9c7/9315abaa15bfc0291247ae3bae9985ad232d948b.png" /></p>
+</div>
+</div>
+<div id="40be417b" class="cell markdown">
+<h3 id="figure-3-distance-bucket-distribution">Figure 3: Distance Bucket
+Distribution</h3>
+<p>The bar chart shows the distribution of rides across predefined
+travel distance buckets (0-1, 2-4, 4-9, and 10+ miles). This diagram
+provides insight into customer travel behavior by illustrating which
+distance ranges are most common among riders. Knowing that the majority
+of rides are short (0-1 mile) while a meaningful portion falls into
+longer categories helps us consider if differentiated insurance pricing
+or coverage options are warranted.</p>
+</div>
+<div id="757f82e1" class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_distance_bucket_distribution(buckets_pdf):</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="co">    Plot a bar chart for distance bucket distribution.</span></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a><span class="co">    </span></span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a><span class="co">    Parameters:</span></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a><span class="co">      - buckets_pdf: Pandas DataFrame with columns &quot;distance_bucket&quot; and &quot;count&quot;.</span></span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>    buckets_pdf <span class="op">=</span> buckets_pdf.iloc[::<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>    fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Use the primary color for bars from our global palette</span></span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>    bars <span class="op">=</span> ax.bar(buckets_pdf[<span class="st">&quot;distance_bucket&quot;</span>], buckets_pdf[<span class="st">&quot;count&quot;</span>],</span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a>                  color<span class="op">=</span>colors[<span class="st">&quot;primary&quot;</span>], edgecolor<span class="op">=</span><span class="st">&quot;black&quot;</span>)</span>
+<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> bar <span class="kw">in</span> bars:</span>
+<span id="cb29-14"><a href="#cb29-14" aria-hidden="true" tabindex="-1"></a>        height <span class="op">=</span> bar.get_height()</span>
+<span id="cb29-15"><a href="#cb29-15" aria-hidden="true" tabindex="-1"></a>        ax.text(bar.get_x() <span class="op">+</span> bar.get_width() <span class="op">/</span> <span class="dv">2</span>, height <span class="op">+</span> <span class="dv">1000</span>,</span>
+<span id="cb29-16"><a href="#cb29-16" aria-hidden="true" tabindex="-1"></a>                <span class="ss">f&quot;</span><span class="sc">{</span><span class="bu">int</span>(height)<span class="sc">}</span><span class="ss">&quot;</span>, ha<span class="op">=</span><span class="st">&quot;center&quot;</span>, va<span class="op">=</span><span class="st">&quot;bottom&quot;</span>, fontsize<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb29-17"><a href="#cb29-17" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb29-18"><a href="#cb29-18" aria-hidden="true" tabindex="-1"></a>    style_axes(ax, <span class="st">&quot;Distance Bucket Distribution&quot;</span>,</span>
+<span id="cb29-19"><a href="#cb29-19" aria-hidden="true" tabindex="-1"></a>               <span class="st">&quot;Distance Bucket (miles)&quot;</span>, <span class="st">&quot;Number of Rides&quot;</span>)</span>
+<span id="cb29-20"><a href="#cb29-20" aria-hidden="true" tabindex="-1"></a>    plt.tight_layout()</span>
+<span id="cb29-21"><a href="#cb29-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> fig</span>
+<span id="cb29-22"><a href="#cb29-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-23"><a href="#cb29-23" aria-hidden="true" tabindex="-1"></a>buckets_pdf <span class="op">=</span> (</span>
+<span id="cb29-24"><a href="#cb29-24" aria-hidden="true" tabindex="-1"></a>    df.groupBy(<span class="st">&quot;distance_bucket&quot;</span>)</span>
+<span id="cb29-25"><a href="#cb29-25" aria-hidden="true" tabindex="-1"></a>      .count()</span>
+<span id="cb29-26"><a href="#cb29-26" aria-hidden="true" tabindex="-1"></a>      .toPandas()</span>
+<span id="cb29-27"><a href="#cb29-27" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb29-28"><a href="#cb29-28" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Distance Bucket Distribution (Bar Chart)</span></span>
+<span id="cb29-29"><a href="#cb29-29" aria-hidden="true" tabindex="-1"></a>fig3 <span class="op">=</span> plot_distance_bucket_distribution(buckets_pdf)</span>
+<span id="cb29-30"><a href="#cb29-30" aria-hidden="true" tabindex="-1"></a>save_figure(fig3, <span class="st">&quot;distance_bucket_distribution.png&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Saved: 03results/distance_bucket_distribution.png
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_2de4cfcb769e452fa40c19b62deed9c7/fe155e902d7bc2fbd0af40813cab01ddb426fbc9.png" /></p>
+</div>
+</div>
+<div id="502f2f75" class="cell markdown">
+<h3 id="additional-diagrams">Additional Diagrams</h3>
+<p>Percentage of Rides &gt; 30 Minutes: A pie chart was created to show
+the share of rides lasting more than 30 minutes relative to all rides.
+This diagram quantifies the target market size for the insurance
+offering.</p>
+<p>Distance Bucket Distribution (Percentage): Another pie chart
+illustrates the percentage distribution of rides among the travel
+distance buckets. This helps us understand the relative prevalence of
+each travel distance segment, which is useful for tailoring insurance
+coverage options.</p>
+</div>
+<div id="5d5fed3d" class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_percentage_rides_over30(total_rides, over30_count):</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>    percentage_over30 <span class="op">=</span> (over30_count <span class="op">/</span> total_rides) <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>    percentage_le30 <span class="op">=</span> <span class="dv">100</span> <span class="op">-</span> percentage_over30</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>    labels <span class="op">=</span> [<span class="st">&quot;&gt; 30 min&quot;</span>, <span class="st">&quot;&lt;= 30 min&quot;</span>]</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>    sizes <span class="op">=</span> [percentage_over30, percentage_le30]</span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Use your primary and secondary colors for consistency</span></span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>    pie_colors <span class="op">=</span> [colors[<span class="st">&quot;primary&quot;</span>], colors[<span class="st">&quot;secondary&quot;</span>]]</span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>    explode <span class="op">=</span> (<span class="fl">0.1</span>, <span class="dv">0</span>)</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a>    fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">8</span>))</span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>    ax.pie(</span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a>        sizes, </span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a>        labels<span class="op">=</span>labels, </span>
+<span id="cb31-14"><a href="#cb31-14" aria-hidden="true" tabindex="-1"></a>        autopct<span class="op">=</span><span class="st">&quot;</span><span class="sc">%1.1f%%</span><span class="st">&quot;</span>, </span>
+<span id="cb31-15"><a href="#cb31-15" aria-hidden="true" tabindex="-1"></a>        startangle<span class="op">=</span><span class="dv">30</span>, </span>
+<span id="cb31-16"><a href="#cb31-16" aria-hidden="true" tabindex="-1"></a>        colors<span class="op">=</span>pie_colors, </span>
+<span id="cb31-17"><a href="#cb31-17" aria-hidden="true" tabindex="-1"></a>        explode<span class="op">=</span>explode, </span>
+<span id="cb31-18"><a href="#cb31-18" aria-hidden="true" tabindex="-1"></a>        textprops<span class="op">=</span>{<span class="st">&quot;fontsize&quot;</span>: <span class="dv">12</span>}, </span>
+<span id="cb31-19"><a href="#cb31-19" aria-hidden="true" tabindex="-1"></a>        wedgeprops<span class="op">=</span>{<span class="st">&quot;edgecolor&quot;</span>: <span class="st">&quot;black&quot;</span>}</span>
+<span id="cb31-20"><a href="#cb31-20" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb31-21"><a href="#cb31-21" aria-hidden="true" tabindex="-1"></a>    ax.set_title(<span class="st">&quot;Percentage of Rides &gt; 30 Minutes&quot;</span>, fontsize<span class="op">=</span><span class="dv">18</span>, weight<span class="op">=</span><span class="st">&quot;bold&quot;</span>, color<span class="op">=</span><span class="st">&quot;#2c3e50&quot;</span>, pad<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb31-22"><a href="#cb31-22" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb31-23"><a href="#cb31-23" aria-hidden="true" tabindex="-1"></a>    total_rides_annotation <span class="op">=</span> <span class="ss">f&quot;Total Rides: </span><span class="sc">{</span>total_rides<span class="sc">}</span><span class="ch">\n</span><span class="ss">&gt; 30 min: </span><span class="sc">{</span>over30_count<span class="sc">}</span><span class="ss">&quot;</span></span>
+<span id="cb31-24"><a href="#cb31-24" aria-hidden="true" tabindex="-1"></a>    ax.text(</span>
+<span id="cb31-25"><a href="#cb31-25" aria-hidden="true" tabindex="-1"></a>        <span class="fl">0.3</span>, <span class="dv">0</span>, total_rides_annotation, fontsize<span class="op">=</span><span class="dv">12</span>, color<span class="op">=</span><span class="st">&quot;#2c3e50&quot;</span>,</span>
+<span id="cb31-26"><a href="#cb31-26" aria-hidden="true" tabindex="-1"></a>        bbox<span class="op">=</span><span class="bu">dict</span>(boxstyle<span class="op">=</span><span class="st">&quot;round,pad=0.4&quot;</span>, edgecolor<span class="op">=</span><span class="st">&quot;gray&quot;</span>, facecolor<span class="op">=</span><span class="st">&quot;#f4f4f4&quot;</span>, alpha<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb31-27"><a href="#cb31-27" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb31-28"><a href="#cb31-28" aria-hidden="true" tabindex="-1"></a>    ax.axis(<span class="st">&quot;equal&quot;</span>)</span>
+<span id="cb31-29"><a href="#cb31-29" aria-hidden="true" tabindex="-1"></a>    plt.tight_layout()</span>
+<span id="cb31-30"><a href="#cb31-30" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> fig</span>
+<span id="cb31-31"><a href="#cb31-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-32"><a href="#cb31-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-33"><a href="#cb31-33" aria-hidden="true" tabindex="-1"></a><span class="co"># 4. Percentage of Rides &gt; 30 Minutes (Pie Chart)</span></span>
+<span id="cb31-34"><a href="#cb31-34" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute total rides and rides over 30 minutes using Spark</span></span>
+<span id="cb31-35"><a href="#cb31-35" aria-hidden="true" tabindex="-1"></a>total_rides <span class="op">=</span> df.count()</span>
+<span id="cb31-36"><a href="#cb31-36" aria-hidden="true" tabindex="-1"></a>over30_count <span class="op">=</span> df.<span class="bu">filter</span>(F.col(<span class="st">&quot;duration_min&quot;</span>) <span class="op">&gt;</span> <span class="dv">30</span>).count()</span>
+<span id="cb31-37"><a href="#cb31-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-38"><a href="#cb31-38" aria-hidden="true" tabindex="-1"></a>fig4 <span class="op">=</span> plot_percentage_rides_over30(total_rides, over30_count)</span>
+<span id="cb31-39"><a href="#cb31-39" aria-hidden="true" tabindex="-1"></a>save_figure(fig4, <span class="st">&quot;percentage_rides_over30.png&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Saved: 03results/percentage_rides_over30.png
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_2de4cfcb769e452fa40c19b62deed9c7/78e3574df9123b1499aac8223a4ba63b6251ff23.png" /></p>
+</div>
+</div>
+<div id="90400450" class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_distance_bucket_percentage(buckets_pdf, desired_order):</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="co">    Plot a pie chart for ride distance distribution by bucket (percentage).</span></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a><span class="co">    </span></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a><span class="co">    Parameters:</span></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a><span class="co">      - buckets_pdf: Pandas DataFrame with columns &quot;distance_bucket&quot; and &quot;count&quot;.</span></span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a><span class="co">      - desired_order: List of bucket labels in the desired order.</span></span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>    total_bucket_count <span class="op">=</span> buckets_pdf[<span class="st">&quot;count&quot;</span>].<span class="bu">sum</span>()</span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>    buckets_pdf[<span class="st">&quot;percentage&quot;</span>] <span class="op">=</span> buckets_pdf[<span class="st">&quot;count&quot;</span>] <span class="op">/</span> total_bucket_count <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a>    buckets_pdf[<span class="st">&quot;distance_bucket&quot;</span>] <span class="op">=</span> pd.Categorical(</span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a>        buckets_pdf[<span class="st">&quot;distance_bucket&quot;</span>], categories<span class="op">=</span>desired_order, ordered<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>    buckets_pdf <span class="op">=</span> buckets_pdf.sort_values(<span class="st">&quot;distance_bucket&quot;</span>)</span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a>    labels <span class="op">=</span> buckets_pdf[<span class="st">&quot;distance_bucket&quot;</span>].tolist()</span>
+<span id="cb33-16"><a href="#cb33-16" aria-hidden="true" tabindex="-1"></a>    sizes <span class="op">=</span> buckets_pdf[<span class="st">&quot;percentage&quot;</span>].tolist()</span>
+<span id="cb33-17"><a href="#cb33-17" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Use the global palette for a consistent look</span></span>
+<span id="cb33-18"><a href="#cb33-18" aria-hidden="true" tabindex="-1"></a>    colors_list <span class="op">=</span> [colors[<span class="st">&quot;primary&quot;</span>], colors[<span class="st">&quot;secondary&quot;</span>],</span>
+<span id="cb33-19"><a href="#cb33-19" aria-hidden="true" tabindex="-1"></a>                   colors[<span class="st">&quot;tertiary&quot;</span>], colors[<span class="st">&quot;quaternary&quot;</span>]]</span>
+<span id="cb33-20"><a href="#cb33-20" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Explode the &quot;10+&quot; slice for emphasis (if it exists)</span></span>
+<span id="cb33-21"><a href="#cb33-21" aria-hidden="true" tabindex="-1"></a>    explode <span class="op">=</span> [<span class="fl">0.15</span> <span class="cf">if</span> lbl <span class="op">==</span> <span class="st">&quot;10+&quot;</span> <span class="cf">else</span> <span class="dv">0</span> <span class="cf">for</span> lbl <span class="kw">in</span> labels]</span>
+<span id="cb33-22"><a href="#cb33-22" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb33-23"><a href="#cb33-23" aria-hidden="true" tabindex="-1"></a>    fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">8</span>))</span>
+<span id="cb33-24"><a href="#cb33-24" aria-hidden="true" tabindex="-1"></a>    ax.pie(sizes, labels<span class="op">=</span>labels, autopct<span class="op">=</span><span class="st">&quot;</span><span class="sc">%1.1f%%</span><span class="st">&quot;</span>,</span>
+<span id="cb33-25"><a href="#cb33-25" aria-hidden="true" tabindex="-1"></a>           startangle<span class="op">=</span><span class="dv">60</span>, colors<span class="op">=</span>colors_list, explode<span class="op">=</span>explode,</span>
+<span id="cb33-26"><a href="#cb33-26" aria-hidden="true" tabindex="-1"></a>           textprops<span class="op">=</span>{<span class="st">&quot;fontsize&quot;</span>: <span class="dv">12</span>},</span>
+<span id="cb33-27"><a href="#cb33-27" aria-hidden="true" tabindex="-1"></a>           wedgeprops<span class="op">=</span>{<span class="st">&quot;edgecolor&quot;</span>: <span class="st">&quot;black&quot;</span>, <span class="st">&quot;linewidth&quot;</span>: <span class="fl">1.5</span>},</span>
+<span id="cb33-28"><a href="#cb33-28" aria-hidden="true" tabindex="-1"></a>           pctdistance<span class="op">=</span><span class="fl">0.75</span>)</span>
+<span id="cb33-29"><a href="#cb33-29" aria-hidden="true" tabindex="-1"></a>    ax.set_title(<span class="st">&quot;Ride Distance Distribution by Bucket (Percentage)&quot;</span>,</span>
+<span id="cb33-30"><a href="#cb33-30" aria-hidden="true" tabindex="-1"></a>                 fontsize<span class="op">=</span><span class="dv">18</span>, weight<span class="op">=</span><span class="st">&quot;bold&quot;</span>, color<span class="op">=</span><span class="st">&quot;#2c3e50&quot;</span>, pad<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb33-31"><a href="#cb33-31" aria-hidden="true" tabindex="-1"></a>    plt.tight_layout()</span>
+<span id="cb33-32"><a href="#cb33-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> fig</span>
+<span id="cb33-33"><a href="#cb33-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-34"><a href="#cb33-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-35"><a href="#cb33-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-36"><a href="#cb33-36" aria-hidden="true" tabindex="-1"></a>buckets_pdf <span class="op">=</span> (</span>
+<span id="cb33-37"><a href="#cb33-37" aria-hidden="true" tabindex="-1"></a>    df.groupBy(<span class="st">&quot;distance_bucket&quot;</span>)</span>
+<span id="cb33-38"><a href="#cb33-38" aria-hidden="true" tabindex="-1"></a>      .count()</span>
+<span id="cb33-39"><a href="#cb33-39" aria-hidden="true" tabindex="-1"></a>      .toPandas()</span>
+<span id="cb33-40"><a href="#cb33-40" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb33-41"><a href="#cb33-41" aria-hidden="true" tabindex="-1"></a>desired_order <span class="op">=</span> [<span class="st">&quot;0-1&quot;</span>, <span class="st">&quot;2-4&quot;</span>, <span class="st">&quot;4-9&quot;</span>, <span class="st">&quot;10+&quot;</span>]</span>
+<span id="cb33-42"><a href="#cb33-42" aria-hidden="true" tabindex="-1"></a>fig5 <span class="op">=</span> plot_distance_bucket_percentage(buckets_pdf, desired_order)</span>
+<span id="cb33-43"><a href="#cb33-43" aria-hidden="true" tabindex="-1"></a>save_figure(fig5, <span class="st">&quot;distance_bucket_percentage.png&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Saved: 03results/distance_bucket_percentage.png
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_2de4cfcb769e452fa40c19b62deed9c7/71851c67bdaa169078310a3b7ff070df8a16b545.png" /></p>
+</div>
+</div>
+<div id="4f5117a2" class="cell markdown">
+<h3 id="interactive-station-map">Interactive Station Map</h3>
+<p>interactive map that visualizes:</p>
+<ul>
+<li><strong>Start Stations:</strong> Blue circle markers sized by
+usage<br />
+</li>
+<li><strong>End Stations:</strong> Red circle markers sized by
+usage<br />
+</li>
+<li><strong>HeatMap:</strong> A combined heatmap of station usage</li>
+</ul>
+</div>
+<div id="a8bf1a9c" class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Aggregate Start Station Usage</span></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>start_station_usage <span class="op">=</span> df.groupBy(<span class="st">&quot;start_station_name&quot;</span>, <span class="st">&quot;start_lat&quot;</span>, <span class="st">&quot;start_lng&quot;</span>) <span class="op">\</span></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>    .agg(F.count(<span class="st">&quot;ride_id&quot;</span>).alias(<span class="st">&quot;start_count&quot;</span>))</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>start_usage_pdf <span class="op">=</span> start_station_usage.toPandas().dropna(subset<span class="op">=</span>[<span class="st">&#39;start_lat&#39;</span>, <span class="st">&#39;start_lng&#39;</span>])</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Aggregate End Station Usage</span></span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a>end_station_usage <span class="op">=</span> df.groupBy(<span class="st">&quot;end_station_name&quot;</span>, <span class="st">&quot;end_lat&quot;</span>, <span class="st">&quot;end_lng&quot;</span>) <span class="op">\</span></span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a>    .agg(F.count(<span class="st">&quot;ride_id&quot;</span>).alias(<span class="st">&quot;end_count&quot;</span>))</span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a>end_usage_pdf <span class="op">=</span> end_station_usage.toPandas().dropna(subset<span class="op">=</span>[<span class="st">&#39;end_lat&#39;</span>, <span class="st">&#39;end_lng&#39;</span>])</span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Create base map centered on NYC</span></span>
+<span id="cb35-13"><a href="#cb35-13" aria-hidden="true" tabindex="-1"></a>nyc_map <span class="op">=</span> folium.Map(location<span class="op">=</span>[<span class="fl">40.7128</span>, <span class="op">-</span><span class="fl">74.0060</span>], zoom_start<span class="op">=</span><span class="dv">12</span>)</span>
+<span id="cb35-14"><a href="#cb35-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-15"><a href="#cb35-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Feature Group for Start Stations</span></span>
+<span id="cb35-16"><a href="#cb35-16" aria-hidden="true" tabindex="-1"></a>start_fg <span class="op">=</span> folium.FeatureGroup(name<span class="op">=</span><span class="st">&quot;Start Stations&quot;</span>)</span>
+<span id="cb35-17"><a href="#cb35-17" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_radius(count, base<span class="op">=</span><span class="dv">3</span>):</span>
+<span id="cb35-18"><a href="#cb35-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> base <span class="op">+</span> np.sqrt(count)</span>
+<span id="cb35-19"><a href="#cb35-19" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> idx, row <span class="kw">in</span> start_usage_pdf.iterrows():</span>
+<span id="cb35-20"><a href="#cb35-20" aria-hidden="true" tabindex="-1"></a>    radius <span class="op">=</span> get_radius(row[<span class="st">&quot;start_count&quot;</span>])</span>
+<span id="cb35-21"><a href="#cb35-21" aria-hidden="true" tabindex="-1"></a>    popup_text <span class="op">=</span> (<span class="ss">f&quot;&lt;strong&gt;</span><span class="sc">{</span>row[<span class="st">&#39;start_station_name&#39;</span>]<span class="sc">}</span><span class="ss">&lt;/strong&gt;&lt;br&gt;&quot;</span></span>
+<span id="cb35-22"><a href="#cb35-22" aria-hidden="true" tabindex="-1"></a>                  <span class="ss">f&quot;Start Count: </span><span class="sc">{</span>row[<span class="st">&#39;start_count&#39;</span>]<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb35-23"><a href="#cb35-23" aria-hidden="true" tabindex="-1"></a>    folium.CircleMarker(</span>
+<span id="cb35-24"><a href="#cb35-24" aria-hidden="true" tabindex="-1"></a>        location<span class="op">=</span>[row[<span class="st">&quot;start_lat&quot;</span>], row[<span class="st">&quot;start_lng&quot;</span>]],</span>
+<span id="cb35-25"><a href="#cb35-25" aria-hidden="true" tabindex="-1"></a>        radius<span class="op">=</span>radius,</span>
+<span id="cb35-26"><a href="#cb35-26" aria-hidden="true" tabindex="-1"></a>        popup<span class="op">=</span>popup_text,</span>
+<span id="cb35-27"><a href="#cb35-27" aria-hidden="true" tabindex="-1"></a>        color<span class="op">=</span><span class="st">&#39;blue&#39;</span>,</span>
+<span id="cb35-28"><a href="#cb35-28" aria-hidden="true" tabindex="-1"></a>        fill<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb35-29"><a href="#cb35-29" aria-hidden="true" tabindex="-1"></a>        fill_color<span class="op">=</span><span class="st">&#39;blue&#39;</span>,</span>
+<span id="cb35-30"><a href="#cb35-30" aria-hidden="true" tabindex="-1"></a>        fill_opacity<span class="op">=</span><span class="fl">0.6</span></span>
+<span id="cb35-31"><a href="#cb35-31" aria-hidden="true" tabindex="-1"></a>    ).add_to(start_fg)</span>
+<span id="cb35-32"><a href="#cb35-32" aria-hidden="true" tabindex="-1"></a>nyc_map.add_child(start_fg)</span>
+<span id="cb35-33"><a href="#cb35-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-34"><a href="#cb35-34" aria-hidden="true" tabindex="-1"></a><span class="co"># Feature Group for End Stations</span></span>
+<span id="cb35-35"><a href="#cb35-35" aria-hidden="true" tabindex="-1"></a>end_fg <span class="op">=</span> folium.FeatureGroup(name<span class="op">=</span><span class="st">&quot;End Stations&quot;</span>)</span>
+<span id="cb35-36"><a href="#cb35-36" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> idx, row <span class="kw">in</span> end_usage_pdf.iterrows():</span>
+<span id="cb35-37"><a href="#cb35-37" aria-hidden="true" tabindex="-1"></a>    radius <span class="op">=</span> get_radius(row[<span class="st">&quot;end_count&quot;</span>])</span>
+<span id="cb35-38"><a href="#cb35-38" aria-hidden="true" tabindex="-1"></a>    popup_text <span class="op">=</span> (<span class="ss">f&quot;&lt;strong&gt;</span><span class="sc">{</span>row[<span class="st">&#39;end_station_name&#39;</span>]<span class="sc">}</span><span class="ss">&lt;/strong&gt;&lt;br&gt;&quot;</span></span>
+<span id="cb35-39"><a href="#cb35-39" aria-hidden="true" tabindex="-1"></a>                  <span class="ss">f&quot;End Count: </span><span class="sc">{</span>row[<span class="st">&#39;end_count&#39;</span>]<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb35-40"><a href="#cb35-40" aria-hidden="true" tabindex="-1"></a>    folium.CircleMarker(</span>
+<span id="cb35-41"><a href="#cb35-41" aria-hidden="true" tabindex="-1"></a>        location<span class="op">=</span>[row[<span class="st">&quot;end_lat&quot;</span>], row[<span class="st">&quot;end_lng&quot;</span>]],</span>
+<span id="cb35-42"><a href="#cb35-42" aria-hidden="true" tabindex="-1"></a>        radius<span class="op">=</span>radius,</span>
+<span id="cb35-43"><a href="#cb35-43" aria-hidden="true" tabindex="-1"></a>        popup<span class="op">=</span>popup_text,</span>
+<span id="cb35-44"><a href="#cb35-44" aria-hidden="true" tabindex="-1"></a>        color<span class="op">=</span><span class="st">&#39;red&#39;</span>,</span>
+<span id="cb35-45"><a href="#cb35-45" aria-hidden="true" tabindex="-1"></a>        fill<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb35-46"><a href="#cb35-46" aria-hidden="true" tabindex="-1"></a>        fill_color<span class="op">=</span><span class="st">&#39;red&#39;</span>,</span>
+<span id="cb35-47"><a href="#cb35-47" aria-hidden="true" tabindex="-1"></a>        fill_opacity<span class="op">=</span><span class="fl">0.6</span></span>
+<span id="cb35-48"><a href="#cb35-48" aria-hidden="true" tabindex="-1"></a>    ).add_to(end_fg)</span>
+<span id="cb35-49"><a href="#cb35-49" aria-hidden="true" tabindex="-1"></a>nyc_map.add_child(end_fg)</span>
+<span id="cb35-50"><a href="#cb35-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-51"><a href="#cb35-51" aria-hidden="true" tabindex="-1"></a><span class="co"># Combined HeatMap Layer</span></span>
+<span id="cb35-52"><a href="#cb35-52" aria-hidden="true" tabindex="-1"></a>heat_data <span class="op">=</span> []</span>
+<span id="cb35-53"><a href="#cb35-53" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> idx, row <span class="kw">in</span> start_usage_pdf.iterrows():</span>
+<span id="cb35-54"><a href="#cb35-54" aria-hidden="true" tabindex="-1"></a>    heat_data.append([row[<span class="st">&quot;start_lat&quot;</span>], row[<span class="st">&quot;start_lng&quot;</span>], row[<span class="st">&quot;start_count&quot;</span>]])</span>
+<span id="cb35-55"><a href="#cb35-55" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> idx, row <span class="kw">in</span> end_usage_pdf.iterrows():</span>
+<span id="cb35-56"><a href="#cb35-56" aria-hidden="true" tabindex="-1"></a>    heat_data.append([row[<span class="st">&quot;end_lat&quot;</span>], row[<span class="st">&quot;end_lng&quot;</span>], row[<span class="st">&quot;end_count&quot;</span>]])</span>
+<span id="cb35-57"><a href="#cb35-57" aria-hidden="true" tabindex="-1"></a>heatmap_fg <span class="op">=</span> folium.FeatureGroup(name<span class="op">=</span><span class="st">&quot;Usage HeatMap&quot;</span>)</span>
+<span id="cb35-58"><a href="#cb35-58" aria-hidden="true" tabindex="-1"></a>HeatMap(heat_data, radius<span class="op">=</span><span class="dv">15</span>, max_zoom<span class="op">=</span><span class="dv">13</span>).add_to(heatmap_fg)</span>
+<span id="cb35-59"><a href="#cb35-59" aria-hidden="true" tabindex="-1"></a>nyc_map.add_child(heatmap_fg)</span>
+<span id="cb35-60"><a href="#cb35-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-61"><a href="#cb35-61" aria-hidden="true" tabindex="-1"></a><span class="co"># Add Layer Control</span></span>
+<span id="cb35-62"><a href="#cb35-62" aria-hidden="true" tabindex="-1"></a>folium.LayerControl(collapsed<span class="op">=</span><span class="va">False</span>).add_to(nyc_map)</span>
+<span id="cb35-63"><a href="#cb35-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-64"><a href="#cb35-64" aria-hidden="true" tabindex="-1"></a><span class="co"># Save the interactive map to an HTML file</span></span>
+<span id="cb35-65"><a href="#cb35-65" aria-hidden="true" tabindex="-1"></a>station_map_file <span class="op">=</span> <span class="st">&quot;03results/advanced_nyc_station_usage_map.html&quot;</span></span>
+<span id="cb35-66"><a href="#cb35-66" aria-hidden="true" tabindex="-1"></a>nyc_map.save(station_map_file)</span>
+<span id="cb35-67"><a href="#cb35-67" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Saved interactive station map as &#39;</span><span class="sc">{</span>station_map_file<span class="sc">}</span><span class="ss">&#39;.&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Saved interactive station map as &#39;03results/advanced_nyc_station_usage_map.html&#39;.
+</code></pre>
+</div>
+</div>
+<div id="2c935255" class="cell markdown">
+<h1 id="final-report-bike-sharing-insurance-analysis">Final Report:
+Bike-Sharing Insurance Analysis</h1>
+<h2 id="core-findings">Core Findings</h2>
+<h3 id="1-ride-duration">1. Ride Duration</h3>
+<ul>
+<li>The majority of trips last under 30 minutes, indicating that most
+users prefer shorter, point-to-point rides.</li>
+<li>A notable subset of rides exceeds 30 minutes, forming a strong basis
+for the proposed insurance product.</li>
+</ul>
+<h3 id="2-distance-distribution">2. Distance Distribution</h3>
+<ul>
+<li>Most rides fall within <strong>0–1 miles</strong> or <strong>2–4
+miles</strong>, confirming the prevalence of short trips.</li>
+<li>However, a smaller but significant portion of trips covers longer
+distances (<strong>4–9 miles</strong> or <strong>10+ miles</strong>),
+often correlating with extended ride durations.</li>
+</ul>
+<h3 id="3-user-segments-and-demand-patterns">3. User Segments and Demand
+Patterns</h3>
+<ul>
+<li><strong>Peak Usage Times:</strong> High demand during morning and
+evening commute hours reflects consistent usage patterns for shorter
+rides.</li>
+<li><strong>Casual Riders:</strong> Longer rides are more common among
+casual users, presenting a key audience for promoting the insurance
+product.</li>
+</ul>
+<hr />
+<h2 id="recommendations">Recommendations</h2>
+<h3 id="1-implement-insurance-pricing">1. Implement Insurance
+Pricing</h3>
+<ul>
+<li>Introduce a <strong>$0.20 surcharge</strong> for rides exceeding 30
+minutes to generate additional revenue.</li>
+<li>Incorporate an <strong>upsell strategy</strong> in-app by notifying
+users as they approach the 30-minute threshold or by offering a
+subscription model for frequent riders.</li>
+</ul>
+<h3 id="2-targeted-marketing">2. Targeted Marketing</h3>
+<ul>
+<li>Focus on casual riders who are more likely to take longer
+rides.</li>
+<li>Leverage ride data to identify patterns and design tailored
+campaigns to promote the insurance offering.</li>
+</ul>
+<h3 id="3-costbenefit--risk-assessment">3. Cost–Benefit &amp; Risk
+Assessment</h3>
+<ul>
+<li>Conduct financial modeling to assess profitability.</li>
+<li>Evaluate potential risks, such as payouts for longer rides, and
+ensure operational readiness to manage them effectively.</li>
+</ul>
+<h3 id="4-flexible-pricing-models">4. Flexible Pricing Models</h3>
+<ul>
+<li>Explore differentiated pricing tiers, such as:
+<ul>
+<li>Higher fees for rides exceeding 60 minutes.</li>
+<li>Discounted rates for subscribers or frequent users.</li>
+</ul></li>
+</ul>
+<hr />
+<h2 id="technical-overview">Technical Overview</h2>
+<h3 id="data-processing-with-pyspark">Data Processing with PySpark</h3>
+<ul>
+<li><p><strong>Timestamp Conversion:</strong><br />
+Ride start and end times were converted into timestamp formats to enable
+precise duration calculations.</p></li>
+<li><p><strong>Ride Duration Calculation:</strong><br />
+<code>duration_sec</code> and <code>duration_min</code> were computed
+for each ride to identify those exceeding 30 minutes.</p></li>
+<li><p><strong>Distance Calculation:</strong><br />
+The Haversine formula was used to calculate travel distances, which were
+categorized into buckets: <strong>0–1</strong>, <strong>2–4</strong>,
+<strong>4–9</strong>, and <strong>10+ miles</strong>.</p></li>
+<li><p><strong>Aggregation:</strong><br />
+Heavy aggregations were performed using Spark to handle large-scale data
+efficiently. Subsequent detailed analysis and visualization were
+conducted using Pandas.</p></li>
+</ul>
+<h3 id="visualization-techniques">Visualization Techniques</h3>
+<ul>
+<li><p><strong>Static Visualizations (Matplotlib):</strong><br />
+Bar charts and histograms were used to depict ride duration and distance
+distributions.</p></li>
+<li><p><strong>Percentage Diagrams (Pie Charts):</strong><br />
+Pie charts were created to highlight the share of rides exceeding 30
+minutes and the proportion of rides in different distance
+buckets.</p></li>
+<li><p><strong>Interactive Maps (Folium):</strong><br />
+Heatmaps and station markers provided a geographical overview of ride
+patterns and areas with higher demand for extended rides.</p></li>
+</ul>
+<hr />
+</div>
+<div id="ab4045a9" class="cell markdown">
+<h2 id="5-business-analysis-report--detailed-layout">5. Business
+Analysis Report – Detailed Layout</h2>
+<p>Below is a detailed presentation of our findings regarding the
+insurance product:</p>
+</div>
+<div id="763c1edb" class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> jinja2 <span class="im">import</span> Template</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a><span class="co"># ---------------------------------------------------------------------------</span></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Base HTML Template (shared by all pages)</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a><span class="co"># ---------------------------------------------------------------------------</span></span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>base_template <span class="op">=</span> <span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;!DOCTYPE html&gt;</span></span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;html&gt;</span></span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;head&gt;</span></span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;meta charset=&quot;UTF-8&quot;&gt;</span></span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</span></span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;title&gt;</span><span class="sc">{{</span><span class="st"> title </span><span class="sc">}}</span><span class="st">&lt;/title&gt;</span></span>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;!-- Import Google Font --&gt;</span></span>
+<span id="cb37-14"><a href="#cb37-14" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;</span></span>
+<span id="cb37-15"><a href="#cb37-15" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;style&gt;</span></span>
+<span id="cb37-16"><a href="#cb37-16" aria-hidden="true" tabindex="-1"></a><span class="st">    /* Base Styles */</span></span>
+<span id="cb37-17"><a href="#cb37-17" aria-hidden="true" tabindex="-1"></a><span class="st">    body {</span></span>
+<span id="cb37-18"><a href="#cb37-18" aria-hidden="true" tabindex="-1"></a><span class="st">      font-family: &#39;Open Sans&#39;, sans-serif;</span></span>
+<span id="cb37-19"><a href="#cb37-19" aria-hidden="true" tabindex="-1"></a><span class="st">      line-height: 1.6;</span></span>
+<span id="cb37-20"><a href="#cb37-20" aria-hidden="true" tabindex="-1"></a><span class="st">      background-color: #f8f8f8;</span></span>
+<span id="cb37-21"><a href="#cb37-21" aria-hidden="true" tabindex="-1"></a><span class="st">      color: #333;</span></span>
+<span id="cb37-22"><a href="#cb37-22" aria-hidden="true" tabindex="-1"></a><span class="st">      margin: 0;</span></span>
+<span id="cb37-23"><a href="#cb37-23" aria-hidden="true" tabindex="-1"></a><span class="st">      padding: 0;</span></span>
+<span id="cb37-24"><a href="#cb37-24" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-25"><a href="#cb37-25" aria-hidden="true" tabindex="-1"></a><span class="st">    .container {</span></span>
+<span id="cb37-26"><a href="#cb37-26" aria-hidden="true" tabindex="-1"></a><span class="st">      max-width: 1200px;</span></span>
+<span id="cb37-27"><a href="#cb37-27" aria-hidden="true" tabindex="-1"></a><span class="st">      margin: 30px auto;</span></span>
+<span id="cb37-28"><a href="#cb37-28" aria-hidden="true" tabindex="-1"></a><span class="st">      padding: 20px;</span></span>
+<span id="cb37-29"><a href="#cb37-29" aria-hidden="true" tabindex="-1"></a><span class="st">      background-color: #fff;</span></span>
+<span id="cb37-30"><a href="#cb37-30" aria-hidden="true" tabindex="-1"></a><span class="st">      box-shadow: 0 0 10px rgba(0,0,0,0.1);</span></span>
+<span id="cb37-31"><a href="#cb37-31" aria-hidden="true" tabindex="-1"></a><span class="st">      border-radius: 8px;</span></span>
+<span id="cb37-32"><a href="#cb37-32" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-33"><a href="#cb37-33" aria-hidden="true" tabindex="-1"></a><span class="st">    .content {</span></span>
+<span id="cb37-34"><a href="#cb37-34" aria-hidden="true" tabindex="-1"></a><span class="st">      padding: 20px;</span></span>
+<span id="cb37-35"><a href="#cb37-35" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-36"><a href="#cb37-36" aria-hidden="true" tabindex="-1"></a><span class="st">    /* Navbar */</span></span>
+<span id="cb37-37"><a href="#cb37-37" aria-hidden="true" tabindex="-1"></a><span class="st">    .navbar {</span></span>
+<span id="cb37-38"><a href="#cb37-38" aria-hidden="true" tabindex="-1"></a><span class="st">      background-color: #2c3e50;</span></span>
+<span id="cb37-39"><a href="#cb37-39" aria-hidden="true" tabindex="-1"></a><span class="st">      padding: 10px;</span></span>
+<span id="cb37-40"><a href="#cb37-40" aria-hidden="true" tabindex="-1"></a><span class="st">      margin-bottom: 20px;</span></span>
+<span id="cb37-41"><a href="#cb37-41" aria-hidden="true" tabindex="-1"></a><span class="st">      border-radius: 5px;</span></span>
+<span id="cb37-42"><a href="#cb37-42" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-43"><a href="#cb37-43" aria-hidden="true" tabindex="-1"></a><span class="st">    .navbar a {</span></span>
+<span id="cb37-44"><a href="#cb37-44" aria-hidden="true" tabindex="-1"></a><span class="st">      color: #ecf0f1;</span></span>
+<span id="cb37-45"><a href="#cb37-45" aria-hidden="true" tabindex="-1"></a><span class="st">      margin-right: 15px;</span></span>
+<span id="cb37-46"><a href="#cb37-46" aria-hidden="true" tabindex="-1"></a><span class="st">      text-decoration: none;</span></span>
+<span id="cb37-47"><a href="#cb37-47" aria-hidden="true" tabindex="-1"></a><span class="st">      font-weight: bold;</span></span>
+<span id="cb37-48"><a href="#cb37-48" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-49"><a href="#cb37-49" aria-hidden="true" tabindex="-1"></a><span class="st">    /* Headings */</span></span>
+<span id="cb37-50"><a href="#cb37-50" aria-hidden="true" tabindex="-1"></a><span class="st">    h1, h2, h3 {</span></span>
+<span id="cb37-51"><a href="#cb37-51" aria-hidden="true" tabindex="-1"></a><span class="st">      color: #333;</span></span>
+<span id="cb37-52"><a href="#cb37-52" aria-hidden="true" tabindex="-1"></a><span class="st">      margin-bottom: 10px;</span></span>
+<span id="cb37-53"><a href="#cb37-53" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-54"><a href="#cb37-54" aria-hidden="true" tabindex="-1"></a><span class="st">    h4 {</span></span>
+<span id="cb37-55"><a href="#cb37-55" aria-hidden="true" tabindex="-1"></a><span class="st">      color: #2c3e50;</span></span>
+<span id="cb37-56"><a href="#cb37-56" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-57"><a href="#cb37-57" aria-hidden="true" tabindex="-1"></a><span class="st">    /* Text and Lists */</span></span>
+<span id="cb37-58"><a href="#cb37-58" aria-hidden="true" tabindex="-1"></a><span class="st">    p {</span></span>
+<span id="cb37-59"><a href="#cb37-59" aria-hidden="true" tabindex="-1"></a><span class="st">      margin-bottom: 15px;</span></span>
+<span id="cb37-60"><a href="#cb37-60" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-61"><a href="#cb37-61" aria-hidden="true" tabindex="-1"></a><span class="st">    ul {</span></span>
+<span id="cb37-62"><a href="#cb37-62" aria-hidden="true" tabindex="-1"></a><span class="st">      margin: 0 0 15px 20px;</span></span>
+<span id="cb37-63"><a href="#cb37-63" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-64"><a href="#cb37-64" aria-hidden="true" tabindex="-1"></a><span class="st">    /* Sections and Layout */</span></span>
+<span id="cb37-65"><a href="#cb37-65" aria-hidden="true" tabindex="-1"></a><span class="st">    .section {</span></span>
+<span id="cb37-66"><a href="#cb37-66" aria-hidden="true" tabindex="-1"></a><span class="st">      display: flex;</span></span>
+<span id="cb37-67"><a href="#cb37-67" aria-hidden="true" tabindex="-1"></a><span class="st">      flex-wrap: wrap;</span></span>
+<span id="cb37-68"><a href="#cb37-68" aria-hidden="true" tabindex="-1"></a><span class="st">      margin-bottom: 40px;</span></span>
+<span id="cb37-69"><a href="#cb37-69" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-70"><a href="#cb37-70" aria-hidden="true" tabindex="-1"></a><span class="st">    .left-column {</span></span>
+<span id="cb37-71"><a href="#cb37-71" aria-hidden="true" tabindex="-1"></a><span class="st">      flex: 1 1 60%;</span></span>
+<span id="cb37-72"><a href="#cb37-72" aria-hidden="true" tabindex="-1"></a><span class="st">      padding-right: 20px;</span></span>
+<span id="cb37-73"><a href="#cb37-73" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-74"><a href="#cb37-74" aria-hidden="true" tabindex="-1"></a><span class="st">    /* Text Blocks */</span></span>
+<span id="cb37-75"><a href="#cb37-75" aria-hidden="true" tabindex="-1"></a><span class="st">    .text-block {</span></span>
+<span id="cb37-76"><a href="#cb37-76" aria-hidden="true" tabindex="-1"></a><span class="st">      margin-bottom: 30px;</span></span>
+<span id="cb37-77"><a href="#cb37-77" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-78"><a href="#cb37-78" aria-hidden="true" tabindex="-1"></a><span class="st">    .text-block p.insight {</span></span>
+<span id="cb37-79"><a href="#cb37-79" aria-hidden="true" tabindex="-1"></a><span class="st">      background-color: #f0f0f0;</span></span>
+<span id="cb37-80"><a href="#cb37-80" aria-hidden="true" tabindex="-1"></a><span class="st">      padding: 10px;</span></span>
+<span id="cb37-81"><a href="#cb37-81" aria-hidden="true" tabindex="-1"></a><span class="st">      border-radius: 5px;</span></span>
+<span id="cb37-82"><a href="#cb37-82" aria-hidden="true" tabindex="-1"></a><span class="st">      margin-bottom: 15px;</span></span>
+<span id="cb37-83"><a href="#cb37-83" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-84"><a href="#cb37-84" aria-hidden="true" tabindex="-1"></a><span class="st">    /* Images and Figures (Stacked Vertically) */</span></span>
+<span id="cb37-85"><a href="#cb37-85" aria-hidden="true" tabindex="-1"></a><span class="st">    .images-container {</span></span>
+<span id="cb37-86"><a href="#cb37-86" aria-hidden="true" tabindex="-1"></a><span class="st">      display: block;</span></span>
+<span id="cb37-87"><a href="#cb37-87" aria-hidden="true" tabindex="-1"></a><span class="st">      margin-bottom: 30px;</span></span>
+<span id="cb37-88"><a href="#cb37-88" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-89"><a href="#cb37-89" aria-hidden="true" tabindex="-1"></a><span class="st">    .image-wrapper {</span></span>
+<span id="cb37-90"><a href="#cb37-90" aria-hidden="true" tabindex="-1"></a><span class="st">      text-align: center;</span></span>
+<span id="cb37-91"><a href="#cb37-91" aria-hidden="true" tabindex="-1"></a><span class="st">      margin-bottom: 20px;</span></span>
+<span id="cb37-92"><a href="#cb37-92" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-93"><a href="#cb37-93" aria-hidden="true" tabindex="-1"></a><span class="st">    .image-wrapper img {</span></span>
+<span id="cb37-94"><a href="#cb37-94" aria-hidden="true" tabindex="-1"></a><span class="st">      max-height: 500px; /* Standard maximum height */</span></span>
+<span id="cb37-95"><a href="#cb37-95" aria-hidden="true" tabindex="-1"></a><span class="st">      width: auto;       /* Auto-fit width based on aspect ratio */</span></span>
+<span id="cb37-96"><a href="#cb37-96" aria-hidden="true" tabindex="-1"></a><span class="st">      max-width: 100%;   /* Ensure it doesn&#39;t overflow the container */</span></span>
+<span id="cb37-97"><a href="#cb37-97" aria-hidden="true" tabindex="-1"></a><span class="st">      display: block;</span></span>
+<span id="cb37-98"><a href="#cb37-98" aria-hidden="true" tabindex="-1"></a><span class="st">      margin: 0 auto;</span></span>
+<span id="cb37-99"><a href="#cb37-99" aria-hidden="true" tabindex="-1"></a><span class="st">      border: 1px solid #ddd;</span></span>
+<span id="cb37-100"><a href="#cb37-100" aria-hidden="true" tabindex="-1"></a><span class="st">      padding: 5px;</span></span>
+<span id="cb37-101"><a href="#cb37-101" aria-hidden="true" tabindex="-1"></a><span class="st">      background: #fff;</span></span>
+<span id="cb37-102"><a href="#cb37-102" aria-hidden="true" tabindex="-1"></a><span class="st">      border-radius: 5px;</span></span>
+<span id="cb37-103"><a href="#cb37-103" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-104"><a href="#cb37-104" aria-hidden="true" tabindex="-1"></a><span class="st">    .image-caption {</span></span>
+<span id="cb37-105"><a href="#cb37-105" aria-hidden="true" tabindex="-1"></a><span class="st">      font-size: 0.9em;</span></span>
+<span id="cb37-106"><a href="#cb37-106" aria-hidden="true" tabindex="-1"></a><span class="st">      color: #666;</span></span>
+<span id="cb37-107"><a href="#cb37-107" aria-hidden="true" tabindex="-1"></a><span class="st">      margin-top: 5px;</span></span>
+<span id="cb37-108"><a href="#cb37-108" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-109"><a href="#cb37-109" aria-hidden="true" tabindex="-1"></a><span class="st">    .figure {</span></span>
+<span id="cb37-110"><a href="#cb37-110" aria-hidden="true" tabindex="-1"></a><span class="st">      text-align: center;</span></span>
+<span id="cb37-111"><a href="#cb37-111" aria-hidden="true" tabindex="-1"></a><span class="st">      margin: 20px 0;</span></span>
+<span id="cb37-112"><a href="#cb37-112" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-113"><a href="#cb37-113" aria-hidden="true" tabindex="-1"></a><span class="st">    .figure img {</span></span>
+<span id="cb37-114"><a href="#cb37-114" aria-hidden="true" tabindex="-1"></a><span class="st">      max-height: 500px;</span></span>
+<span id="cb37-115"><a href="#cb37-115" aria-hidden="true" tabindex="-1"></a><span class="st">      width: auto;</span></span>
+<span id="cb37-116"><a href="#cb37-116" aria-hidden="true" tabindex="-1"></a><span class="st">      max-width: 100%;</span></span>
+<span id="cb37-117"><a href="#cb37-117" aria-hidden="true" tabindex="-1"></a><span class="st">      display: block;</span></span>
+<span id="cb37-118"><a href="#cb37-118" aria-hidden="true" tabindex="-1"></a><span class="st">      margin: 0 auto;</span></span>
+<span id="cb37-119"><a href="#cb37-119" aria-hidden="true" tabindex="-1"></a><span class="st">      border: 1px solid #ddd;</span></span>
+<span id="cb37-120"><a href="#cb37-120" aria-hidden="true" tabindex="-1"></a><span class="st">      padding: 5px;</span></span>
+<span id="cb37-121"><a href="#cb37-121" aria-hidden="true" tabindex="-1"></a><span class="st">      background: #fff;</span></span>
+<span id="cb37-122"><a href="#cb37-122" aria-hidden="true" tabindex="-1"></a><span class="st">      border-radius: 5px;</span></span>
+<span id="cb37-123"><a href="#cb37-123" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-124"><a href="#cb37-124" aria-hidden="true" tabindex="-1"></a><span class="st">    /* Tables */</span></span>
+<span id="cb37-125"><a href="#cb37-125" aria-hidden="true" tabindex="-1"></a><span class="st">    table {</span></span>
+<span id="cb37-126"><a href="#cb37-126" aria-hidden="true" tabindex="-1"></a><span class="st">      border-collapse: collapse;</span></span>
+<span id="cb37-127"><a href="#cb37-127" aria-hidden="true" tabindex="-1"></a><span class="st">      width: 100%;</span></span>
+<span id="cb37-128"><a href="#cb37-128" aria-hidden="true" tabindex="-1"></a><span class="st">      margin: 20px 0;</span></span>
+<span id="cb37-129"><a href="#cb37-129" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-130"><a href="#cb37-130" aria-hidden="true" tabindex="-1"></a><span class="st">    table, th, td {</span></span>
+<span id="cb37-131"><a href="#cb37-131" aria-hidden="true" tabindex="-1"></a><span class="st">      border: 1px solid #ddd;</span></span>
+<span id="cb37-132"><a href="#cb37-132" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-133"><a href="#cb37-133" aria-hidden="true" tabindex="-1"></a><span class="st">    th, td {</span></span>
+<span id="cb37-134"><a href="#cb37-134" aria-hidden="true" tabindex="-1"></a><span class="st">      padding: 8px;</span></span>
+<span id="cb37-135"><a href="#cb37-135" aria-hidden="true" tabindex="-1"></a><span class="st">      text-align: left;</span></span>
+<span id="cb37-136"><a href="#cb37-136" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-137"><a href="#cb37-137" aria-hidden="true" tabindex="-1"></a><span class="st">    th {</span></span>
+<span id="cb37-138"><a href="#cb37-138" aria-hidden="true" tabindex="-1"></a><span class="st">      background-color: #f2f2f2;</span></span>
+<span id="cb37-139"><a href="#cb37-139" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-140"><a href="#cb37-140" aria-hidden="true" tabindex="-1"></a><span class="st">    /* Responsive Adjustments */</span></span>
+<span id="cb37-141"><a href="#cb37-141" aria-hidden="true" tabindex="-1"></a><span class="st">    @media (max-width: 768px) {</span></span>
+<span id="cb37-142"><a href="#cb37-142" aria-hidden="true" tabindex="-1"></a><span class="st">      .section {</span></span>
+<span id="cb37-143"><a href="#cb37-143" aria-hidden="true" tabindex="-1"></a><span class="st">        flex-direction: column;</span></span>
+<span id="cb37-144"><a href="#cb37-144" aria-hidden="true" tabindex="-1"></a><span class="st">      }</span></span>
+<span id="cb37-145"><a href="#cb37-145" aria-hidden="true" tabindex="-1"></a><span class="st">      .left-column {</span></span>
+<span id="cb37-146"><a href="#cb37-146" aria-hidden="true" tabindex="-1"></a><span class="st">        padding-right: 0;</span></span>
+<span id="cb37-147"><a href="#cb37-147" aria-hidden="true" tabindex="-1"></a><span class="st">      }</span></span>
+<span id="cb37-148"><a href="#cb37-148" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-149"><a href="#cb37-149" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;/style&gt;</span></span>
+<span id="cb37-150"><a href="#cb37-150" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;/head&gt;</span></span>
+<span id="cb37-151"><a href="#cb37-151" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;body&gt;</span></span>
+<span id="cb37-152"><a href="#cb37-152" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;div class=&quot;navbar&quot;&gt;</span></span>
+<span id="cb37-153"><a href="#cb37-153" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;a href=&quot;business_analysis.html&quot;&gt;Business Analysis&lt;/a&gt;</span></span>
+<span id="cb37-154"><a href="#cb37-154" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;a href=&quot;data_quality.html&quot;&gt;Data Quality&lt;/a&gt;</span></span>
+<span id="cb37-155"><a href="#cb37-155" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;a href=&quot;general_statistics.html&quot;&gt;General Statistics&lt;/a&gt;</span></span>
+<span id="cb37-156"><a href="#cb37-156" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;a href=&quot;station_map.html&quot;&gt;Station Map&lt;/a&gt;</span></span>
+<span id="cb37-157"><a href="#cb37-157" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;/div&gt;</span></span>
+<span id="cb37-158"><a href="#cb37-158" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;div class=&quot;container&quot;&gt;</span></span>
+<span id="cb37-159"><a href="#cb37-159" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;h1&gt;</span><span class="sc">{{</span><span class="st"> title </span><span class="sc">}}</span><span class="st">&lt;/h1&gt;</span></span>
+<span id="cb37-160"><a href="#cb37-160" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;div class=&quot;content&quot;&gt;</span></span>
+<span id="cb37-161"><a href="#cb37-161" aria-hidden="true" tabindex="-1"></a><span class="st">      </span><span class="sc">{{</span><span class="st"> content </span><span class="sc">}}</span></span>
+<span id="cb37-162"><a href="#cb37-162" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;/div&gt;</span></span>
+<span id="cb37-163"><a href="#cb37-163" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;/div&gt;</span></span>
+<span id="cb37-164"><a href="#cb37-164" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;/body&gt;</span></span>
+<span id="cb37-165"><a href="#cb37-165" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;/html&gt;</span></span>
+<span id="cb37-166"><a href="#cb37-166" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb37-167"><a href="#cb37-167" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-168"><a href="#cb37-168" aria-hidden="true" tabindex="-1"></a><span class="co"># ---------------------------------------------------------------------------</span></span>
+<span id="cb37-169"><a href="#cb37-169" aria-hidden="true" tabindex="-1"></a><span class="co"># Page Content Fragments (without duplicate &lt;html&gt;, &lt;head&gt;, or &lt;style&gt; tags)</span></span>
+<span id="cb37-170"><a href="#cb37-170" aria-hidden="true" tabindex="-1"></a><span class="co"># ---------------------------------------------------------------------------</span></span>
+<span id="cb37-171"><a href="#cb37-171" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-172"><a href="#cb37-172" aria-hidden="true" tabindex="-1"></a>data_quality_content <span class="op">=</span> <span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb37-173"><a href="#cb37-173" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;div class=&quot;text-block&quot;&gt;</span></span>
+<span id="cb37-174"><a href="#cb37-174" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;h2&gt;Quality&lt;/h2&gt;</span></span>
+<span id="cb37-175"><a href="#cb37-175" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;p&gt;This section provides an overview of the key data quality metrics from the Citibike dataset. &lt;/p&gt;</span></span>
+<span id="cb37-176"><a href="#cb37-176" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;table&gt;</span></span>
+<span id="cb37-177"><a href="#cb37-177" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;tr&gt;</span></span>
+<span id="cb37-178"><a href="#cb37-178" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;th&gt;Metric&lt;/th&gt;</span></span>
+<span id="cb37-179"><a href="#cb37-179" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;th&gt;Count&lt;/th&gt;</span></span>
+<span id="cb37-180"><a href="#cb37-180" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;/tr&gt;</span></span>
+<span id="cb37-181"><a href="#cb37-181" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;tr&gt;</span></span>
+<span id="cb37-182"><a href="#cb37-182" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;td&gt;Total Rows&lt;/td&gt;</span></span>
+<span id="cb37-183"><a href="#cb37-183" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;td&gt;</span><span class="sc">{{</span><span class="st"> total_rows </span><span class="sc">}}</span><span class="st">&lt;/td&gt;</span></span>
+<span id="cb37-184"><a href="#cb37-184" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;/tr&gt;</span></span>
+<span id="cb37-185"><a href="#cb37-185" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;tr&gt;</span></span>
+<span id="cb37-186"><a href="#cb37-186" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;td&gt;Invalid Timestamps&lt;/td&gt;</span></span>
+<span id="cb37-187"><a href="#cb37-187" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;td&gt;</span><span class="sc">{{</span><span class="st"> invalid_timestamps </span><span class="sc">}}</span><span class="st">&lt;/td&gt;</span></span>
+<span id="cb37-188"><a href="#cb37-188" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;/tr&gt;</span></span>
+<span id="cb37-189"><a href="#cb37-189" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;tr&gt;</span></span>
+<span id="cb37-190"><a href="#cb37-190" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;td&gt;Non-Positive Durations&lt;/td&gt;</span></span>
+<span id="cb37-191"><a href="#cb37-191" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;td&gt;</span><span class="sc">{{</span><span class="st"> non_positive_durations </span><span class="sc">}}</span><span class="st">&lt;/td&gt;</span></span>
+<span id="cb37-192"><a href="#cb37-192" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;/tr&gt;</span></span>
+<span id="cb37-193"><a href="#cb37-193" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;tr&gt;</span></span>
+<span id="cb37-194"><a href="#cb37-194" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;td&gt;Missing Station Names&lt;/td&gt;</span></span>
+<span id="cb37-195"><a href="#cb37-195" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;td&gt;</span><span class="sc">{{</span><span class="st"> missing_station_names </span><span class="sc">}}</span><span class="st">&lt;/td&gt;</span></span>
+<span id="cb37-196"><a href="#cb37-196" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;/tr&gt;</span></span>
+<span id="cb37-197"><a href="#cb37-197" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;tr&gt;</span></span>
+<span id="cb37-198"><a href="#cb37-198" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;td&gt;Invalid Coordinates&lt;/td&gt;</span></span>
+<span id="cb37-199"><a href="#cb37-199" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;td&gt;</span><span class="sc">{{</span><span class="st"> invalid_coordinates </span><span class="sc">}}</span><span class="st">&lt;/td&gt;</span></span>
+<span id="cb37-200"><a href="#cb37-200" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;/tr&gt;</span></span>
+<span id="cb37-201"><a href="#cb37-201" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;tr&gt;</span></span>
+<span id="cb37-202"><a href="#cb37-202" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;td&gt;Duplicate Ride IDs&lt;/td&gt;</span></span>
+<span id="cb37-203"><a href="#cb37-203" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;td&gt;</span><span class="sc">{{</span><span class="st"> duplicate_ids </span><span class="sc">}}</span><span class="st">&lt;/td&gt;</span></span>
+<span id="cb37-204"><a href="#cb37-204" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;/tr&gt;</span></span>
+<span id="cb37-205"><a href="#cb37-205" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;/table&gt;</span></span>
+<span id="cb37-206"><a href="#cb37-206" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;/div&gt;</span></span>
+<span id="cb37-207"><a href="#cb37-207" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb37-208"><a href="#cb37-208" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-209"><a href="#cb37-209" aria-hidden="true" tabindex="-1"></a>general_statistics_content <span class="op">=</span> <span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb37-210"><a href="#cb37-210" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;div class=&quot;section&quot;&gt;</span></span>
+<span id="cb37-211"><a href="#cb37-211" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;h2&gt;Visualisations&lt;/h2&gt;</span></span>
+<span id="cb37-212"><a href="#cb37-212" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;p&gt;This section presents key visualizations to provide an overview of ride patterns across NYC. Below are the visualizations from the Business Analysis:&lt;/p&gt;</span></span>
+<span id="cb37-213"><a href="#cb37-213" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-214"><a href="#cb37-214" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;div class=&quot;figure&quot;&gt;</span></span>
+<span id="cb37-215"><a href="#cb37-215" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;img src=&quot;03results/percentage_rides_over30.png&quot; alt=&quot;Percentage of Rides &gt; 30 Minutes&quot;&gt;</span></span>
+<span id="cb37-216"><a href="#cb37-216" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;p&gt;This pie chart shows the share of rides lasting over 30 minutes.&lt;/p&gt;</span></span>
+<span id="cb37-217"><a href="#cb37-217" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;/div&gt;</span></span>
+<span id="cb37-218"><a href="#cb37-218" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-219"><a href="#cb37-219" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;div class=&quot;figure&quot;&gt;</span></span>
+<span id="cb37-220"><a href="#cb37-220" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;img src=&quot;03results/ride_duration_distribution.png&quot; alt=&quot;Riding behavior over the day&quot;&gt;</span></span>
+<span id="cb37-221"><a href="#cb37-221" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;p&gt;Riding behavior over the day.&lt;/p&gt;</span></span>
+<span id="cb37-222"><a href="#cb37-222" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;/div&gt;</span></span>
+<span id="cb37-223"><a href="#cb37-223" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-224"><a href="#cb37-224" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;div class=&quot;figure&quot;&gt;</span></span>
+<span id="cb37-225"><a href="#cb37-225" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;img src=&quot;03results/hourly_ride_counts.png&quot; alt=&quot;Hourly Ride Counts&quot;&gt;</span></span>
+<span id="cb37-226"><a href="#cb37-226" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;p&gt;Hourly ride counts highlighting peak usage times.&lt;/p&gt;</span></span>
+<span id="cb37-227"><a href="#cb37-227" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;/div&gt;</span></span>
+<span id="cb37-228"><a href="#cb37-228" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-229"><a href="#cb37-229" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;div class=&quot;figure&quot;&gt;</span></span>
+<span id="cb37-230"><a href="#cb37-230" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;img src=&quot;03results/distance_bucket_distribution.png&quot; alt=&quot;Absolute distribution of rides by distance bucket&quot;&gt;</span></span>
+<span id="cb37-231"><a href="#cb37-231" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;p&gt;Absolute number of rides for each distance bucket.&lt;/p&gt;</span></span>
+<span id="cb37-232"><a href="#cb37-232" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;/div&gt;</span></span>
+<span id="cb37-233"><a href="#cb37-233" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-234"><a href="#cb37-234" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;div class=&quot;figure&quot;&gt;</span></span>
+<span id="cb37-235"><a href="#cb37-235" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;img src=&quot;03results/distance_bucket_percentage.png&quot; alt=&quot;Percentage distribution of rides by distance bucket&quot;&gt;</span></span>
+<span id="cb37-236"><a href="#cb37-236" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;p&gt;Percentage distribution of rides by distance bucket.&lt;/p&gt;</span></span>
+<span id="cb37-237"><a href="#cb37-237" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;/div&gt;</span></span>
+<span id="cb37-238"><a href="#cb37-238" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;/div&gt;</span></span>
+<span id="cb37-239"><a href="#cb37-239" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb37-240"><a href="#cb37-240" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-241"><a href="#cb37-241" aria-hidden="true" tabindex="-1"></a>business_analysis_content <span class="op">=</span> <span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb37-242"><a href="#cb37-242" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;div class=&quot;section&quot;&gt;</span></span>
+<span id="cb37-243"><a href="#cb37-243" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;!-- Left Column: Explanatory Text --&gt;</span></span>
+<span id="cb37-244"><a href="#cb37-244" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;div class=&quot;left-column&quot;&gt;</span></span>
+<span id="cb37-245"><a href="#cb37-245" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;h1&gt;Business Analysis: Insurance Coverage for Extended Rides&lt;/h1&gt;</span></span>
+<span id="cb37-246"><a href="#cb37-246" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;!-- Overview &amp; Hypothesis --&gt;</span></span>
+<span id="cb37-247"><a href="#cb37-247" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;div class=&quot;text-block&quot;&gt;</span></span>
+<span id="cb37-248"><a href="#cb37-248" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;h2&gt;1. Overview &amp;amp; Hypothesis&lt;/h2&gt;</span></span>
+<span id="cb37-249"><a href="#cb37-249" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;p class=&quot;insight&quot;&gt;&lt;strong&gt;Should we introduce an insurance fee for rides that last more than 30 minutes?&lt;/strong&gt;&lt;/p&gt;</span></span>
+<span id="cb37-250"><a href="#cb37-250" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;p&gt;To evaluate the feasibility and potential impact of this insurance idea, we focus on the following key questions:&lt;/p&gt;</span></span>
+<span id="cb37-251"><a href="#cb37-251" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;ul&gt;</span></span>
+<span id="cb37-252"><a href="#cb37-252" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;li&gt;&lt;strong&gt;How many rides exceed 30 minutes?&lt;/strong&gt;&lt;/li&gt;</span></span>
+<span id="cb37-253"><a href="#cb37-253" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;li&gt;&lt;strong&gt;What revenue could be generated if we charge USD 0.20 for each ride over 30 minutes?&lt;/strong&gt;&lt;/li&gt;</span></span>
+<span id="cb37-254"><a href="#cb37-254" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;li&gt;</span></span>
+<span id="cb37-255"><a href="#cb37-255" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;strong&gt;How far do people typically travel, categorized into the following distance buckets?&lt;/strong&gt;</span></span>
+<span id="cb37-256"><a href="#cb37-256" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;ul&gt;</span></span>
+<span id="cb37-257"><a href="#cb37-257" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;li&gt;0–1 km&lt;/li&gt;</span></span>
+<span id="cb37-258"><a href="#cb37-258" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;li&gt;2–4 km&lt;/li&gt;</span></span>
+<span id="cb37-259"><a href="#cb37-259" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;li&gt;4–9 km&lt;/li&gt;</span></span>
+<span id="cb37-260"><a href="#cb37-260" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;li&gt;10+ km&lt;/li&gt;</span></span>
+<span id="cb37-261"><a href="#cb37-261" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;/ul&gt;</span></span>
+<span id="cb37-262"><a href="#cb37-262" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;/li&gt;</span></span>
+<span id="cb37-263"><a href="#cb37-263" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;/ul&gt;</span></span>
+<span id="cb37-264"><a href="#cb37-264" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;/div&gt;</span></span>
+<span id="cb37-265"><a href="#cb37-265" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;hr&gt;</span></span>
+<span id="cb37-266"><a href="#cb37-266" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;!-- Executive Summary --&gt;</span></span>
+<span id="cb37-267"><a href="#cb37-267" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;div class=&quot;text-block&quot;&gt;</span></span>
+<span id="cb37-268"><a href="#cb37-268" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;h2&gt;2. Executive Summary&lt;/h2&gt;</span></span>
+<span id="cb37-269"><a href="#cb37-269" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;ul&gt;</span></span>
+<span id="cb37-270"><a href="#cb37-270" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;li&gt;&lt;strong&gt;Rides Over 30 Minutes:&lt;/strong&gt; </span><span class="sc">{{</span><span class="st"> insured_count </span><span class="sc">}}</span><span class="st">&lt;/li&gt;</span></span>
+<span id="cb37-271"><a href="#cb37-271" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;li&gt;&lt;strong&gt;Estimated Monthly Revenue:&lt;/strong&gt; $</span><span class="sc">{{</span><span class="st"> expected_revenue </span><span class="sc">}}</span><span class="st">&lt;/li&gt;</span></span>
+<span id="cb37-272"><a href="#cb37-272" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;/ul&gt;</span></span>
+<span id="cb37-273"><a href="#cb37-273" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;p&gt;The analysis indicates that &lt;strong&gt;</span><span class="sc">{{</span><span class="st"> insured_count </span><span class="sc">}}</span><span class="st">&lt;/strong&gt; rides qualify for insurance coverage, potentially generating an estimated revenue of &lt;strong&gt;$</span><span class="sc">{{</span><span class="st"> expected_revenue </span><span class="sc">}}</span><span class="st">&lt;/strong&gt; at a rate of $0.20 per ride.&lt;/p&gt;</span></span>
+<span id="cb37-274"><a href="#cb37-274" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;p&gt;However, further analysis is recommended to ensure feasibility. This includes conducting a comprehensive cost–benefit and risk analysis, as well as exploring targeted marketing strategies to optimize uptake. Additional analysis should assess trends across multiple months to understand long-term performance and revenue development.&lt;/p&gt;</span></span>
+<span id="cb37-275"><a href="#cb37-275" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;p&gt;While the findings suggest that longer trips are relatively rare—reducing the likelihood of payouts—further risk calculations are advised. In addition, the quality analysis revealed that a small number of rides were missing start and end station data. This warrants investigation to determine whether these anomalies might indicate possible crashes or system errors.&lt;/p&gt;</span></span>
+<span id="cb37-276"><a href="#cb37-276" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;/div&gt;</span></span>
+<span id="cb37-277"><a href="#cb37-277" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;hr&gt;</span></span>
+<span id="cb37-278"><a href="#cb37-278" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;!-- Detailed Description --&gt;</span></span>
+<span id="cb37-279"><a href="#cb37-279" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;div class=&quot;text-block&quot;&gt;</span></span>
+<span id="cb37-280"><a href="#cb37-280" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;h2&gt;3. Detailed Description&lt;/h2&gt;</span></span>
+<span id="cb37-281"><a href="#cb37-281" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;!-- Rider Behavior and Demand Patterns --&gt;</span></span>
+<span id="cb37-282"><a href="#cb37-282" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;div class=&quot;text-block&quot;&gt;</span></span>
+<span id="cb37-283"><a href="#cb37-283" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;h3&gt;Rider Behavior and Demand Patterns&lt;/h3&gt;</span></span>
+<span id="cb37-284"><a href="#cb37-284" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;p&gt;&lt;strong&gt;Duration Insights:&lt;/strong&gt; The analysis reveals that the majority of rides last less than &lt;strong&gt;30 minutes&lt;/strong&gt;, reflecting a strong preference for short, point-to-point trips. However, a notable subset of longer rides exists, highlighting the potential relevance of offering insurance coverage for these cases.&lt;/p&gt;</span></span>
+<span id="cb37-285"><a href="#cb37-285" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;p&gt;&lt;strong&gt;Insurance Coverage Rate:&lt;/strong&gt; Even if only a small percentage of riders require insurance, it could still generate a &lt;strong&gt;consistent revenue stream&lt;/strong&gt;.&lt;/p&gt;</span></span>
+<span id="cb37-286"><a href="#cb37-286" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;/div&gt;</span></span>
+<span id="cb37-287"><a href="#cb37-287" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;div class=&quot;figure&quot;&gt;</span></span>
+<span id="cb37-288"><a href="#cb37-288" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;img src=&quot;03results/percentage_rides_over30.png&quot; alt=&quot;Percentage of Rides &gt; 30 Minutes&quot;&gt;</span></span>
+<span id="cb37-289"><a href="#cb37-289" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;p style=&quot;font-size: 0.9em;&quot;&gt;This pie chart shows the share of rides lasting over 30 minutes.&lt;/p&gt;</span></span>
+<span id="cb37-290"><a href="#cb37-290" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;/div&gt;</span></span>
+<span id="cb37-291"><a href="#cb37-291" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;p&gt;&lt;strong&gt;Peak Usage Times and Duration:&lt;/strong&gt; Hourly trends indicate high demand during morning and evening commute hours, suggesting that a significant portion of users rely on the service for regular commutes to work.&lt;/p&gt;</span></span>
+<span id="cb37-292"><a href="#cb37-292" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;p&gt;These insights present an opportunity to explore an all-year insurance product tailored for frequent users who want comprehensive coverage for all their rides. Such a product could cater to regular commuters and enhance user loyalty by offering added value to their daily travel routines.&lt;/p&gt;</span></span>
+<span id="cb37-293"><a href="#cb37-293" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;!-- Images: They will now display one under the other --&gt;</span></span>
+<span id="cb37-294"><a href="#cb37-294" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;div class=&quot;images-container&quot;&gt;</span></span>
+<span id="cb37-295"><a href="#cb37-295" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;div class=&quot;image-wrapper&quot;&gt;</span></span>
+<span id="cb37-296"><a href="#cb37-296" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;img src=&quot;03results/ride_duration_distribution.png&quot; alt=&quot;Riding behavior over the day&quot;&gt;</span></span>
+<span id="cb37-297"><a href="#cb37-297" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;p class=&quot;image-caption&quot;&gt;Riding behavior over the day&lt;/p&gt;</span></span>
+<span id="cb37-298"><a href="#cb37-298" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;/div&gt;</span></span>
+<span id="cb37-299"><a href="#cb37-299" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;div class=&quot;image-wrapper&quot;&gt;</span></span>
+<span id="cb37-300"><a href="#cb37-300" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;img src=&quot;03results/hourly_ride_counts.png&quot; alt=&quot;Percentage of rides over 30 minutes&quot;&gt;</span></span>
+<span id="cb37-301"><a href="#cb37-301" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;p class=&quot;image-caption&quot;&gt;Percentage of rides over 30 minutes&lt;/p&gt;</span></span>
+<span id="cb37-302"><a href="#cb37-302" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;/div&gt;</span></span>
+<span id="cb37-303"><a href="#cb37-303" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;/div&gt;</span></span>
+<span id="cb37-304"><a href="#cb37-304" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;!-- Distance Distribution --&gt;</span></span>
+<span id="cb37-305"><a href="#cb37-305" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;div class=&quot;text-block&quot;&gt;</span></span>
+<span id="cb37-306"><a href="#cb37-306" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;h3&gt;Distance Distribution&lt;/h3&gt;</span></span>
+<span id="cb37-307"><a href="#cb37-307" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;p&gt;&lt;strong&gt;Short vs. Long Trips:&lt;/strong&gt; The majority of trips fall within the &lt;strong&gt;0–1 mile&lt;/strong&gt; or &lt;strong&gt;2–4 mile&lt;/strong&gt; ranges, indicating a preference for shorter distances. However, a meaningful portion of trips extend beyond these ranges, highlighting diverse usage patterns.&lt;/p&gt;</span></span>
+<span id="cb37-308"><a href="#cb37-308" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;ul&gt;</span></span>
+<span id="cb37-309"><a href="#cb37-309" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;li&gt;&lt;strong&gt;0–1 miles:&lt;/strong&gt; 593,723 rides&lt;/li&gt;</span></span>
+<span id="cb37-310"><a href="#cb37-310" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;li&gt;&lt;strong&gt;2–4 miles:&lt;/strong&gt; 387,713 rides&lt;/li&gt;</span></span>
+<span id="cb37-311"><a href="#cb37-311" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;li&gt;&lt;strong&gt;4–9 miles:&lt;/strong&gt; 18,193 rides&lt;/li&gt;</span></span>
+<span id="cb37-312"><a href="#cb37-312" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;li&gt;&lt;strong&gt;10+ miles:&lt;/strong&gt; 371 rides&lt;/li&gt;</span></span>
+<span id="cb37-313"><a href="#cb37-313" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;/ul&gt;</span></span>
+<span id="cb37-314"><a href="#cb37-314" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;p&gt;&lt;strong&gt;Correlation with Duration:&lt;/strong&gt; Longer distances are typically associated with extended ride durations. This observation reinforces the potential value of an insurance product tailored for users who travel farther and spend more time on a bike.&lt;/p&gt;</span></span>
+<span id="cb37-315"><a href="#cb37-315" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;/div&gt;</span></span>
+<span id="cb37-316"><a href="#cb37-316" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;!-- Images for Distance Distribution --&gt;</span></span>
+<span id="cb37-317"><a href="#cb37-317" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;div class=&quot;images-container&quot;&gt;</span></span>
+<span id="cb37-318"><a href="#cb37-318" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;div class=&quot;image-wrapper&quot;&gt;</span></span>
+<span id="cb37-319"><a href="#cb37-319" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;img src=&quot;03results/distance_bucket_distribution.png&quot; alt=&quot;Absolute distribution of rides by distance bucket&quot;&gt;</span></span>
+<span id="cb37-320"><a href="#cb37-320" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;p class=&quot;image-caption&quot;&gt;Absolute number of rides for each distance bucket&lt;/p&gt;</span></span>
+<span id="cb37-321"><a href="#cb37-321" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;/div&gt;</span></span>
+<span id="cb37-322"><a href="#cb37-322" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;div class=&quot;image-wrapper&quot;&gt;</span></span>
+<span id="cb37-323"><a href="#cb37-323" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;img src=&quot;03results/distance_bucket_percentage.png&quot; alt=&quot;Percentage distribution of rides by distance bucket&quot;&gt;</span></span>
+<span id="cb37-324"><a href="#cb37-324" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;p class=&quot;image-caption&quot;&gt;Percentage distribution of rides by distance bucket&lt;/p&gt;</span></span>
+<span id="cb37-325"><a href="#cb37-325" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;/div&gt;</span></span>
+<span id="cb37-326"><a href="#cb37-326" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;/div&gt;</span></span>
+<span id="cb37-327"><a href="#cb37-327" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;!-- Core Findings and Recommendations --&gt;</span></span>
+<span id="cb37-328"><a href="#cb37-328" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;div class=&quot;text-block&quot;&gt;</span></span>
+<span id="cb37-329"><a href="#cb37-329" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;h3&gt;Core Findings and Recommendations&lt;/h3&gt;</span></span>
+<span id="cb37-330"><a href="#cb37-330" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;p&gt;Our analysis shows that most trips are quick and convenient, lasting under &lt;strong&gt;30 minutes&lt;/strong&gt;. However, there’s a smaller, significant group of rides that go beyond this duration—making them a strong candidate for an insurance product. In terms of distance, most rides fall between &lt;strong&gt;0–1 miles&lt;/strong&gt; or &lt;strong&gt;2–4 miles&lt;/strong&gt;, with fewer trips covering &lt;strong&gt;4–9 miles&lt;/strong&gt; or more. Longer rides often align with longer durations, which strengthens the case for offering targeted insurance coverage. Peak usage during the morning and evening commute hours suggests many riders use the service regularly to get to and from work. Casual riders taking longer trips could also be a key audience to focus on.&lt;/p&gt;</span></span>
+<span id="cb37-331"><a href="#cb37-331" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;p&gt;Based on these insights, the introduction of a &lt;strong&gt;$0.20&lt;/strong&gt; insurance fee for rides lasting over 30 minutes could create a constant revenue stream. To increase uptake, you could offer in-app notifications reminding users about the fee as they approach the 30-minute mark, or even a subscription option for frequent riders who want comprehensive coverage.&lt;/p&gt;</span></span>
+<span id="cb37-332"><a href="#cb37-332" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;p&gt;Flexible pricing options like higher fees for very long rides (e.g., over 60 minutes) or discounts for members could also help attract different rider segments.&lt;/p&gt;</span></span>
+<span id="cb37-333"><a href="#cb37-333" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;p&gt;To test this approach, a pilot program would make sense to gather feedback and analyze the risks. From there, refine the pricing and marketing strategy based on what works best. Monitoring data over time—especially ride patterns on specific days of the week or across several months—will be essential for scaling the insurance offering and ensuring profitability.&lt;/p&gt;</span></span>
+<span id="cb37-334"><a href="#cb37-334" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;h3&gt;Further Investigation Needed | Not Covered in the Analysis&lt;/h3&gt;</span></span>
+<span id="cb37-335"><a href="#cb37-335" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;p&gt;While this analysis covers ride duration, distance, and demand patterns, there are some areas that require deeper investigation:&lt;/p&gt;</span></span>
+<span id="cb37-336"><a href="#cb37-336" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;ul&gt;</span></span>
+<span id="cb37-337"><a href="#cb37-337" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;li&gt;&lt;strong&gt;Crash and Error Analysis:&lt;/strong&gt; Explore missing data (e.g., incomplete start and end station information) to determine whether these issues suggest potential crashes or system errors.&lt;/li&gt;</span></span>
+<span id="cb37-338"><a href="#cb37-338" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;li&gt;&lt;strong&gt;Long-Term Trends:&lt;/strong&gt; Compare ride data over several months or seasons to confirm whether long-distance and long-duration trends are consistent year-round.&lt;/li&gt;</span></span>
+<span id="cb37-339"><a href="#cb37-339" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;li&gt;&lt;strong&gt;User Segments:&lt;/strong&gt; Identify specific user groups who may benefit most from insurance, such as commuters, tourists, or recreational riders.&lt;/li&gt;</span></span>
+<span id="cb37-340"><a href="#cb37-340" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;li&gt;&lt;strong&gt;Operational Costs:&lt;/strong&gt; Analyze the impact of offering insurance on operational costs and evaluate potential risks for payouts.&lt;/li&gt;</span></span>
+<span id="cb37-341"><a href="#cb37-341" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;/ul&gt;</span></span>
+<span id="cb37-342"><a href="#cb37-342" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;hr&gt;</span></span>
+<span id="cb37-343"><a href="#cb37-343" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;!-- Analysis Deep Dive --&gt;</span></span>
+<span id="cb37-344"><a href="#cb37-344" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;h2&gt;4. Analysis Deep Dive&lt;/h2&gt;</span></span>
+<span id="cb37-345"><a href="#cb37-345" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;div class=&quot;text-block&quot;&gt;</span></span>
+<span id="cb37-346"><a href="#cb37-346" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;h3&gt;Methodology&lt;/h3&gt;</span></span>
+<span id="cb37-347"><a href="#cb37-347" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;p&gt;PySpark was used to compute the ride durations by converting the start and end timestamps and calculating the difference in minutes. Rides lasting more than 30 minutes were flagged as eligible for insurance. Additionally, ride distances were calculated using the Haversine formula and then categorized into the following buckets: &lt;strong&gt;0-1, 2-4, 4-9, and 10+ miles&lt;/strong&gt;. All heavy aggregations were performed in Spark to efficiently process the large dataset.&lt;/p&gt;</span></span>
+<span id="cb37-348"><a href="#cb37-348" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;/div&gt;</span></span>
+<span id="cb37-349"><a href="#cb37-349" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;div class=&quot;text-block&quot;&gt;</span></span>
+<span id="cb37-350"><a href="#cb37-350" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;h3&gt;Data Overview&lt;/h3&gt;</span></span>
+<span id="cb37-351"><a href="#cb37-351" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;p&gt;The dataset is structured as follows:&lt;/p&gt;</span></span>
+<span id="cb37-352"><a href="#cb37-352" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;pre style=&quot;background-color: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;&quot;&gt;</span><span class="sc">{{</span><span class="st"> schema_html </span><span class="sc">}}</span><span class="st">&lt;/pre&gt;</span></span>
+<span id="cb37-353"><a href="#cb37-353" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;/div&gt;</span></span>
+<span id="cb37-354"><a href="#cb37-354" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;div class=&quot;text-block&quot;&gt;</span></span>
+<span id="cb37-355"><a href="#cb37-355" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;h3&gt;Quality Summary&lt;/h3&gt;</span></span>
+<span id="cb37-356"><a href="#cb37-356" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;p&gt;Overview of the key data quality metrics from the Citibike dataset.&lt;/p&gt;</span></span>
+<span id="cb37-357"><a href="#cb37-357" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;table&gt;</span></span>
+<span id="cb37-358"><a href="#cb37-358" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;tr&gt;</span></span>
+<span id="cb37-359"><a href="#cb37-359" aria-hidden="true" tabindex="-1"></a><span class="st">              &lt;th&gt;Metric&lt;/th&gt;</span></span>
+<span id="cb37-360"><a href="#cb37-360" aria-hidden="true" tabindex="-1"></a><span class="st">              &lt;th&gt;Count&lt;/th&gt;</span></span>
+<span id="cb37-361"><a href="#cb37-361" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;/tr&gt;</span></span>
+<span id="cb37-362"><a href="#cb37-362" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;tr&gt;</span></span>
+<span id="cb37-363"><a href="#cb37-363" aria-hidden="true" tabindex="-1"></a><span class="st">              &lt;td&gt;Total Rows&lt;/td&gt;</span></span>
+<span id="cb37-364"><a href="#cb37-364" aria-hidden="true" tabindex="-1"></a><span class="st">              &lt;td&gt;</span><span class="sc">{{</span><span class="st"> total_rows </span><span class="sc">}}</span><span class="st">&lt;/td&gt;</span></span>
+<span id="cb37-365"><a href="#cb37-365" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;/tr&gt;</span></span>
+<span id="cb37-366"><a href="#cb37-366" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;tr&gt;</span></span>
+<span id="cb37-367"><a href="#cb37-367" aria-hidden="true" tabindex="-1"></a><span class="st">              &lt;td&gt;Invalid Timestamps&lt;/td&gt;</span></span>
+<span id="cb37-368"><a href="#cb37-368" aria-hidden="true" tabindex="-1"></a><span class="st">              &lt;td&gt;</span><span class="sc">{{</span><span class="st"> invalid_timestamps </span><span class="sc">}}</span><span class="st">&lt;/td&gt;</span></span>
+<span id="cb37-369"><a href="#cb37-369" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;/tr&gt;</span></span>
+<span id="cb37-370"><a href="#cb37-370" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;tr&gt;</span></span>
+<span id="cb37-371"><a href="#cb37-371" aria-hidden="true" tabindex="-1"></a><span class="st">              &lt;td&gt;Non-Positive Durations&lt;/td&gt;</span></span>
+<span id="cb37-372"><a href="#cb37-372" aria-hidden="true" tabindex="-1"></a><span class="st">              &lt;td&gt;</span><span class="sc">{{</span><span class="st"> non_positive_durations </span><span class="sc">}}</span><span class="st">&lt;/td&gt;</span></span>
+<span id="cb37-373"><a href="#cb37-373" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;/tr&gt;</span></span>
+<span id="cb37-374"><a href="#cb37-374" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;tr&gt;</span></span>
+<span id="cb37-375"><a href="#cb37-375" aria-hidden="true" tabindex="-1"></a><span class="st">              &lt;td&gt;Missing Station Names&lt;/td&gt;</span></span>
+<span id="cb37-376"><a href="#cb37-376" aria-hidden="true" tabindex="-1"></a><span class="st">              &lt;td&gt;</span><span class="sc">{{</span><span class="st"> missing_station_names </span><span class="sc">}}</span><span class="st">&lt;/td&gt;</span></span>
+<span id="cb37-377"><a href="#cb37-377" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;/tr&gt;</span></span>
+<span id="cb37-378"><a href="#cb37-378" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;tr&gt;</span></span>
+<span id="cb37-379"><a href="#cb37-379" aria-hidden="true" tabindex="-1"></a><span class="st">              &lt;td&gt;Invalid Coordinates&lt;/td&gt;</span></span>
+<span id="cb37-380"><a href="#cb37-380" aria-hidden="true" tabindex="-1"></a><span class="st">              &lt;td&gt;</span><span class="sc">{{</span><span class="st"> invalid_coordinates </span><span class="sc">}}</span><span class="st">&lt;/td&gt;</span></span>
+<span id="cb37-381"><a href="#cb37-381" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;/tr&gt;</span></span>
+<span id="cb37-382"><a href="#cb37-382" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;tr&gt;</span></span>
+<span id="cb37-383"><a href="#cb37-383" aria-hidden="true" tabindex="-1"></a><span class="st">              &lt;td&gt;Duplicate Ride IDs&lt;/td&gt;</span></span>
+<span id="cb37-384"><a href="#cb37-384" aria-hidden="true" tabindex="-1"></a><span class="st">              &lt;td&gt;</span><span class="sc">{{</span><span class="st"> duplicate_ids </span><span class="sc">}}</span><span class="st">&lt;/td&gt;</span></span>
+<span id="cb37-385"><a href="#cb37-385" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;/tr&gt;</span></span>
+<span id="cb37-386"><a href="#cb37-386" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;/table&gt;</span></span>
+<span id="cb37-387"><a href="#cb37-387" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;/div&gt;</span></span>
+<span id="cb37-388"><a href="#cb37-388" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;div class=&quot;text-block&quot;&gt;</span></span>
+<span id="cb37-389"><a href="#cb37-389" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;h3&gt;Calculations&lt;/h3&gt;</span></span>
+<span id="cb37-390"><a href="#cb37-390" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;h4&gt;Ride Duration&lt;/h4&gt;</span></span>
+<span id="cb37-391"><a href="#cb37-391" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;p&gt;The duration was determined using the timestamps &lt;code&gt;started_at_ts&lt;/code&gt; and &lt;code&gt;ended_at_ts&lt;/code&gt;. By calculating the difference in seconds and converting it to minutes, we obtained a precise measure of how long each ride lasted.&lt;/p&gt;</span></span>
+<span id="cb37-392"><a href="#cb37-392" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;pre&gt;</span></span>
+<span id="cb37-393"><a href="#cb37-393" aria-hidden="true" tabindex="-1"></a><span class="st">duration_sec = unix_timestamp(ended_at_ts) - unix_timestamp(started_at_ts)</span></span>
+<span id="cb37-394"><a href="#cb37-394" aria-hidden="true" tabindex="-1"></a><span class="st">duration_min = duration_sec / 60</span></span>
+<span id="cb37-395"><a href="#cb37-395" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;/pre&gt;</span></span>
+<span id="cb37-396"><a href="#cb37-396" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;h4&gt;Distance Calculation Using the Haversine Formula&lt;/h4&gt;</span></span>
+<span id="cb37-397"><a href="#cb37-397" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;p&gt;To determine the travel distance, the &lt;strong&gt;Haversine formula&lt;/strong&gt; was used, which calculates the great-circle distance between two points on the Earth&#39;s surface. The calculation accounts for the curvature of the Earth, making it more accurate for geographical distance measurement.&lt;/p&gt;</span></span>
+<span id="cb37-398"><a href="#cb37-398" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;pre&gt;</span></span>
+<span id="cb37-399"><a href="#cb37-399" aria-hidden="true" tabindex="-1"></a><span class="st">delta_lat = radians(end_lat - start_lat)</span></span>
+<span id="cb37-400"><a href="#cb37-400" aria-hidden="true" tabindex="-1"></a><span class="st">delta_lng = radians(end_lng - start_lng)</span></span>
+<span id="cb37-401"><a href="#cb37-401" aria-hidden="true" tabindex="-1"></a><span class="st">start_lat_rad = radians(start_lat)</span></span>
+<span id="cb37-402"><a href="#cb37-402" aria-hidden="true" tabindex="-1"></a><span class="st">end_lat_rad = radians(end_lat)</span></span>
+<span id="cb37-403"><a href="#cb37-403" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;/pre&gt;</span></span>
+<span id="cb37-404"><a href="#cb37-404" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;p&gt;The Haversine formula was then used to compute the distance in miles:&lt;/p&gt;</span></span>
+<span id="cb37-405"><a href="#cb37-405" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;pre&gt;</span></span>
+<span id="cb37-406"><a href="#cb37-406" aria-hidden="true" tabindex="-1"></a><span class="st">a = sin(delta_lat / 2)^2 + cos(start_lat_rad) * cos(end_lat_rad) * sin(delta_lng / 2)^2</span></span>
+<span id="cb37-407"><a href="#cb37-407" aria-hidden="true" tabindex="-1"></a><span class="st">c = 2 * asin(sqrt(a))</span></span>
+<span id="cb37-408"><a href="#cb37-408" aria-hidden="true" tabindex="-1"></a><span class="st">distance = 3959 * c  # Earth&#39;s radius in miles</span></span>
+<span id="cb37-409"><a href="#cb37-409" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;/pre&gt;</span></span>
+<span id="cb37-410"><a href="#cb37-410" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;/div&gt;</span></span>
+<span id="cb37-411"><a href="#cb37-411" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;div class=&quot;text-block&quot;&gt;</span></span>
+<span id="cb37-412"><a href="#cb37-412" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;h2&gt;5. Interactive Station Map&lt;/h2&gt;</span></span>
+<span id="cb37-413"><a href="#cb37-413" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;p&gt;This interactive map visualizes the spatial distribution of Citibike stations across NYC. The map includes:&lt;/p&gt;</span></span>
+<span id="cb37-414"><a href="#cb37-414" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;ul&gt;</span></span>
+<span id="cb37-415"><a href="#cb37-415" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;li&gt;&lt;strong&gt;Start Stations:&lt;/strong&gt; Blue markers sized by the number of rides starting at each station.&lt;/li&gt;</span></span>
+<span id="cb37-416"><a href="#cb37-416" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;li&gt;&lt;strong&gt;End Stations:&lt;/strong&gt; Red markers sized by the number of rides ending at each station.&lt;/li&gt;</span></span>
+<span id="cb37-417"><a href="#cb37-417" aria-hidden="true" tabindex="-1"></a><span class="st">            &lt;li&gt;&lt;strong&gt;HeatMap:&lt;/strong&gt; A combined heatmap highlighting station usage density.&lt;/li&gt;</span></span>
+<span id="cb37-418"><a href="#cb37-418" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;/ul&gt;</span></span>
+<span id="cb37-419"><a href="#cb37-419" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;p&gt;Use the controls to toggle between layers and explore the data interactively.&lt;/p&gt;</span></span>
+<span id="cb37-420"><a href="#cb37-420" aria-hidden="true" tabindex="-1"></a><span class="st">          &lt;iframe src=&quot;</span><span class="sc">{{</span><span class="st"> station_map_file </span><span class="sc">}}</span><span class="st">&quot; style=&quot;width: 100%; height: 600px;&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</span></span>
+<span id="cb37-421"><a href="#cb37-421" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;/div&gt;</span></span>
+<span id="cb37-422"><a href="#cb37-422" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;/div&gt;</span></span>
+<span id="cb37-423"><a href="#cb37-423" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;/div&gt;</span></span>
+<span id="cb37-424"><a href="#cb37-424" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;/div&gt;</span></span>
+<span id="cb37-425"><a href="#cb37-425" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;/div&gt;</span></span>
+<span id="cb37-426"><a href="#cb37-426" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb37-427"><a href="#cb37-427" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-428"><a href="#cb37-428" aria-hidden="true" tabindex="-1"></a>station_map_content <span class="op">=</span> <span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb37-429"><a href="#cb37-429" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;div class=&quot;text-block&quot;&gt;</span></span>
+<span id="cb37-430"><a href="#cb37-430" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;h2&gt;Interactive Station Map&lt;/h2&gt;</span></span>
+<span id="cb37-431"><a href="#cb37-431" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;p&gt;This interactive map visualizes the spatial distribution of Citibike stations across NYC. &lt;/p&gt;</span></span>
+<span id="cb37-432"><a href="#cb37-432" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;p&gt;The map includes:&lt;/p&gt;</span></span>
+<span id="cb37-433"><a href="#cb37-433" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;ul&gt;</span></span>
+<span id="cb37-434"><a href="#cb37-434" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;li&gt;&lt;strong&gt;Start Stations:&lt;/strong&gt; Blue markers sized by the number of rides starting at each station.&lt;/li&gt;</span></span>
+<span id="cb37-435"><a href="#cb37-435" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;li&gt;&lt;strong&gt;End Stations:&lt;/strong&gt; Red markers sized by the number of rides ending at each station.&lt;/li&gt;</span></span>
+<span id="cb37-436"><a href="#cb37-436" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;li&gt;&lt;strong&gt;HeatMap:&lt;/strong&gt; A combined heatmap highlighting station usage density.&lt;/li&gt;</span></span>
+<span id="cb37-437"><a href="#cb37-437" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;/ul&gt;</span></span>
+<span id="cb37-438"><a href="#cb37-438" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;p&gt;Use the controls to toggle between layers and explore the data interactively.&lt;/p&gt;</span></span>
+<span id="cb37-439"><a href="#cb37-439" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;iframe src=&quot;</span><span class="sc">{{</span><span class="st"> station_map_file </span><span class="sc">}}</span><span class="st">&quot; style=&quot;width: 100%; height: 600px;&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</span></span>
+<span id="cb37-440"><a href="#cb37-440" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;/div&gt;</span></span>
+<span id="cb37-441"><a href="#cb37-441" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb37-442"><a href="#cb37-442" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-443"><a href="#cb37-443" aria-hidden="true" tabindex="-1"></a><span class="co"># ---------------------------------------------------------------------------</span></span>
+<span id="cb37-444"><a href="#cb37-444" aria-hidden="true" tabindex="-1"></a><span class="co"># Report Context: Key Metrics (update with your actual values)</span></span>
+<span id="cb37-445"><a href="#cb37-445" aria-hidden="true" tabindex="-1"></a><span class="co"># ---------------------------------------------------------------------------</span></span>
+<span id="cb37-446"><a href="#cb37-446" aria-hidden="true" tabindex="-1"></a>report_context <span class="op">=</span> {</span>
+<span id="cb37-447"><a href="#cb37-447" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;total_rows&quot;</span>: total_rows,</span>
+<span id="cb37-448"><a href="#cb37-448" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;invalid_timestamps&quot;</span>: invalid_ts_count,</span>
+<span id="cb37-449"><a href="#cb37-449" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;non_positive_durations&quot;</span>: invalid_duration_count,</span>
+<span id="cb37-450"><a href="#cb37-450" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;missing_station_names&quot;</span>: missing_station_count,</span>
+<span id="cb37-451"><a href="#cb37-451" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;invalid_coordinates&quot;</span>: invalid_coords_count,</span>
+<span id="cb37-452"><a href="#cb37-452" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;duplicate_ids&quot;</span>: duplicate_ids_count,</span>
+<span id="cb37-453"><a href="#cb37-453" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;insured_count&quot;</span>: insured_count,</span>
+<span id="cb37-454"><a href="#cb37-454" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;expected_revenue&quot;</span>: expected_revenue,</span>
+<span id="cb37-455"><a href="#cb37-455" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;station_map_file&quot;</span>: station_map_file,</span>
+<span id="cb37-456"><a href="#cb37-456" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;schema_html&quot;</span>: schema_html</span>
+<span id="cb37-457"><a href="#cb37-457" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb37-458"><a href="#cb37-458" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-459"><a href="#cb37-459" aria-hidden="true" tabindex="-1"></a><span class="co"># ---------------------------------------------------------------------------</span></span>
+<span id="cb37-460"><a href="#cb37-460" aria-hidden="true" tabindex="-1"></a><span class="co"># Render and Save Each Page</span></span>
+<span id="cb37-461"><a href="#cb37-461" aria-hidden="true" tabindex="-1"></a><span class="co"># ---------------------------------------------------------------------------</span></span>
+<span id="cb37-462"><a href="#cb37-462" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> render_page(title, content, context, filename):</span>
+<span id="cb37-463"><a href="#cb37-463" aria-hidden="true" tabindex="-1"></a>    content_template <span class="op">=</span> Template(content)</span>
+<span id="cb37-464"><a href="#cb37-464" aria-hidden="true" tabindex="-1"></a>    rendered_content <span class="op">=</span> content_template.render(<span class="op">**</span>context)</span>
+<span id="cb37-465"><a href="#cb37-465" aria-hidden="true" tabindex="-1"></a>    base <span class="op">=</span> Template(base_template)</span>
+<span id="cb37-466"><a href="#cb37-466" aria-hidden="true" tabindex="-1"></a>    html <span class="op">=</span> base.render(title<span class="op">=</span>title, content<span class="op">=</span>rendered_content, <span class="op">**</span>context)</span>
+<span id="cb37-467"><a href="#cb37-467" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span>(filename, <span class="st">&quot;w&quot;</span>, encoding<span class="op">=</span><span class="st">&quot;utf-8&quot;</span>) <span class="im">as</span> f:</span>
+<span id="cb37-468"><a href="#cb37-468" aria-hidden="true" tabindex="-1"></a>        f.write(html)</span>
+<span id="cb37-469"><a href="#cb37-469" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Generated&quot;</span>, filename)</span>
+<span id="cb37-470"><a href="#cb37-470" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb37-471"><a href="#cb37-471" aria-hidden="true" tabindex="-1"></a>results_folder <span class="op">=</span> <span class="st">&quot;03results&quot;</span></span>
+<span id="cb37-472"><a href="#cb37-472" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="kw">not</span> os.path.exists(results_folder):</span>
+<span id="cb37-473"><a href="#cb37-473" aria-hidden="true" tabindex="-1"></a>    os.makedirs(results_folder)</span>
+<span id="cb37-474"><a href="#cb37-474" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-475"><a href="#cb37-475" aria-hidden="true" tabindex="-1"></a>render_page(<span class="st">&quot;Business Analysis&quot;</span>, business_analysis_content, report_context, <span class="st">&quot;business_analysis.html&quot;</span>)</span>
+<span id="cb37-476"><a href="#cb37-476" aria-hidden="true" tabindex="-1"></a>render_page(<span class="st">&quot;Data Quality Analysis&quot;</span>, data_quality_content, report_context, os.path.join(results_folder, <span class="st">&quot;data_quality.html&quot;</span>))</span>
+<span id="cb37-477"><a href="#cb37-477" aria-hidden="true" tabindex="-1"></a>render_page(<span class="st">&quot;General Statistics&quot;</span>, general_statistics_content, report_context,os.path.join(results_folder, <span class="st">&quot;general_statistics.html&quot;</span>))</span>
+<span id="cb37-478"><a href="#cb37-478" aria-hidden="true" tabindex="-1"></a>render_page(<span class="st">&quot;Station Map&quot;</span>, station_map_content, report_context,os.path.join(results_folder, <span class="st">&quot;station_map.html&quot;</span>))</span>
+<span id="cb37-479"><a href="#cb37-479" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-480"><a href="#cb37-480" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;HTML multi-page report generated successfully.&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Generated business_analysis.html
+Generated 03results\data_quality.html
+Generated 03results\general_statistics.html
+Generated 03results\station_map.html
+HTML multi-page report generated successfully.
+</code></pre>
+</div>
+</div>
+<div id="ce1097b0" class="cell code">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<div id="a1f9530a" class="cell code">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
