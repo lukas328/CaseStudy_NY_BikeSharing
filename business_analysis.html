@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Analysis</title>
+  <!-- Import Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Base Styles */
+    body {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;
+      background-color: #f8f8f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    .content {
+      padding: 20px;
+    }
+    /* Navbar */
+    .navbar {
+      background-color: #2c3e50;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+    .navbar a {
+      color: #ecf0f1;
+      margin-right: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    /* Headings */
+    h1, h2, h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+    h4 {
+      color: #2c3e50;
+    }
+    /* Text and Lists */
+    p {
+      margin-bottom: 15px;
+    }
+    ul {
+      margin: 0 0 15px 20px;
+    }
+    /* Sections and Layout */
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+    .left-column {
+      flex: 1 1 60%;
+      padding-right: 20px;
+    }
+    /* Text Blocks */
+    .text-block {
+      margin-bottom: 30px;
+    }
+    .text-block p.insight {
+      background-color: #f0f0f0;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    /* Images and Figures (Stacked Vertically) */
+    .images-container {
+      display: block;
+      margin-bottom: 30px;
+    }
+    .image-wrapper {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .image-wrapper img {
+      max-height: 500px; /* Standard maximum height */
+      width: auto;       /* Auto-fit width based on aspect ratio */
+      max-width: 100%;   /* Ensure it doesn't overflow the container */
+      display: block;
+      margin: 0 auto;
+      border: 1px solid #ddd;
+      padding: 5px;
+      background: #fff;
+      border-radius: 5px;
+    }
+    .image-caption {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 5px;
+    }
+    .figure {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .figure img {
+      max-height: 500px;
+      width: auto;
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+      border: 1px solid #ddd;
+      padding: 5px;
+      background: #fff;
+      border-radius: 5px;
+    }
+    /* Tables */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 20px 0;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+      }
+      .left-column {
+        padding-right: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="business_analysis.html">Business Analysis</a>
+    <a href="data_quality.html">Data Quality</a>
+    <a href="general_statistics.html">General Statistics</a>
+    <a href="station_map.html">Station Map</a>
+  </div>
+  <div class="container">
+    <h1>Business Analysis</h1>
+    <div class="content">
+      
+<div class="section">
+  <!-- Left Column: Explanatory Text -->
+  <div class="left-column">
+    <h1>Business Analysis: Insurance Coverage for Extended Rides</h1>
+    <!-- Overview & Hypothesis -->
+    <div class="text-block">
+      <h2>1. Overview &amp; Hypothesis</h2>
+      <p class="insight"><strong>Should we introduce an insurance fee for rides that last more than 30 minutes?</strong></p>
+      <p>To evaluate the feasibility and potential impact of this insurance idea, we focus on the following key questions:</p>
+      <ul>
+        <li><strong>How many rides exceed 30 minutes?</strong></li>
+        <li><strong>What revenue could be generated if we charge USD 0.20 for each ride over 30 minutes?</strong></li>
+        <li>
+          <strong>How far do people typically travel, categorized into the following distance buckets?</strong>
+          <ul>
+            <li>0–1 km</li>
+            <li>2–4 km</li>
+            <li>4–9 km</li>
+            <li>10+ km</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <hr>
+    <!-- Executive Summary -->
+    <div class="text-block">
+      <h2>2. Executive Summary</h2>
+      <ul>
+        <li><strong>Rides Over 30 Minutes:</strong> 33104</li>
+        <li><strong>Estimated Monthly Revenue:</strong> $6620.8</li>
+      </ul>
+      <p>The analysis indicates that <strong>33104</strong> rides qualify for insurance coverage, potentially generating an estimated revenue of <strong>$6620.8</strong> at a rate of $0.20 per ride.</p>
+      <p>However, further analysis is recommended to ensure feasibility. This includes conducting a comprehensive cost–benefit and risk analysis, as well as exploring targeted marketing strategies to optimize uptake. Additional analysis should assess trends across multiple months to understand long-term performance and revenue development.</p>
+      <p>While the findings suggest that longer trips are relatively rare—reducing the likelihood of payouts—further risk calculations are advised. In addition, the quality analysis revealed that a small number of rides were missing start and end station data. This warrants investigation to determine whether these anomalies might indicate possible crashes or system errors.</p>
+    </div>
+    <hr>
+    <!-- Detailed Description -->
+    <div class="text-block">
+      <h2>3. Detailed Description</h2>
+      <!-- Rider Behavior and Demand Patterns -->
+      <div class="text-block">
+        <h3>Rider Behavior and Demand Patterns</h3>
+        <p><strong>Duration Insights:</strong> The analysis reveals that the majority of rides last less than <strong>30 minutes</strong>, reflecting a strong preference for short, point-to-point trips. However, a notable subset of longer rides exists, highlighting the potential relevance of offering insurance coverage for these cases.</p>
+        <p><strong>Insurance Coverage Rate:</strong> Even if only a small percentage of riders require insurance, it could still generate a <strong>consistent revenue stream</strong>.</p>
+      </div>
+      <div class="figure">
+        <img src="03results/percentage_rides_over30.png" alt="Percentage of Rides > 30 Minutes">
+        <p style="font-size: 0.9em;">This pie chart shows the share of rides lasting over 30 minutes.</p>
+      </div>
+      <p><strong>Peak Usage Times and Duration:</strong> Hourly trends indicate high demand during morning and evening commute hours, suggesting that a significant portion of users rely on the service for regular commutes to work.</p>
+      <p>These insights present an opportunity to explore an all-year insurance product tailored for frequent users who want comprehensive coverage for all their rides. Such a product could cater to regular commuters and enhance user loyalty by offering added value to their daily travel routines.</p>
+      <!-- Images: They will now display one under the other -->
+      <div class="images-container">
+        <div class="image-wrapper">
+          <img src="03results/ride_duration_distribution.png" alt="Riding behavior over the day">
+          <p class="image-caption">Riding behavior over the day</p>
+        </div>
+        <div class="image-wrapper">
+          <img src="03results/hourly_ride_counts.png" alt="Percentage of rides over 30 minutes">
+          <p class="image-caption">Percentage of rides over 30 minutes</p>
+        </div>
+      </div>
+      <!-- Distance Distribution -->
+      <div class="text-block">
+        <h3>Distance Distribution</h3>
+        <p><strong>Short vs. Long Trips:</strong> The majority of trips fall within the <strong>0–1 mile</strong> or <strong>2–4 mile</strong> ranges, indicating a preference for shorter distances. However, a meaningful portion of trips extend beyond these ranges, highlighting diverse usage patterns.</p>
+        <ul>
+          <li><strong>0–1 miles:</strong> 593,723 rides</li>
+          <li><strong>2–4 miles:</strong> 387,713 rides</li>
+          <li><strong>4–9 miles:</strong> 18,193 rides</li>
+          <li><strong>10+ miles:</strong> 371 rides</li>
+        </ul>
+        <p><strong>Correlation with Duration:</strong> Longer distances are typically associated with extended ride durations. This observation reinforces the potential value of an insurance product tailored for users who travel farther and spend more time on a bike.</p>
+      </div>
+      <!-- Images for Distance Distribution -->
+      <div class="images-container">
+        <div class="image-wrapper">
+          <img src="03results/distance_bucket_distribution.png" alt="Absolute distribution of rides by distance bucket">
+          <p class="image-caption">Absolute number of rides for each distance bucket</p>
+        </div>
+        <div class="image-wrapper">
+          <img src="03results/distance_bucket_percentage.png" alt="Percentage distribution of rides by distance bucket">
+          <p class="image-caption">Percentage distribution of rides by distance bucket</p>
+        </div>
+      </div>
+      <!-- Core Findings and Recommendations -->
+      <div class="text-block">
+        <h3>Core Findings and Recommendations</h3>
+        <p>Our analysis shows that most trips are quick and convenient, lasting under <strong>30 minutes</strong>. However, there’s a smaller, significant group of rides that go beyond this duration—making them a strong candidate for an insurance product. In terms of distance, most rides fall between <strong>0–1 miles</strong> or <strong>2–4 miles</strong>, with fewer trips covering <strong>4–9 miles</strong> or more. Longer rides often align with longer durations, which strengthens the case for offering targeted insurance coverage. Peak usage during the morning and evening commute hours suggests many riders use the service regularly to get to and from work. Casual riders taking longer trips could also be a key audience to focus on.</p>
+        <p>Based on these insights, the introduction of a <strong>$0.20</strong> insurance fee for rides lasting over 30 minutes could create a constant revenue stream. To increase uptake, you could offer in-app notifications reminding users about the fee as they approach the 30-minute mark, or even a subscription option for frequent riders who want comprehensive coverage.</p>
+        <p>Flexible pricing options like higher fees for very long rides (e.g., over 60 minutes) or discounts for members could also help attract different rider segments.</p>
+        <p>To test this approach, a pilot program would make sense to gather feedback and analyze the risks. From there, refine the pricing and marketing strategy based on what works best. Monitoring data over time—especially ride patterns on specific days of the week or across several months—will be essential for scaling the insurance offering and ensuring profitability.</p>
+        <h3>Further Investigation Needed | Not Covered in the Analysis</h3>
+        <p>While this analysis covers ride duration, distance, and demand patterns, there are some areas that require deeper investigation:</p>
+        <ul>
+          <li><strong>Crash and Error Analysis:</strong> Explore missing data (e.g., incomplete start and end station information) to determine whether these issues suggest potential crashes or system errors.</li>
+          <li><strong>Long-Term Trends:</strong> Compare ride data over several months or seasons to confirm whether long-distance and long-duration trends are consistent year-round.</li>
+          <li><strong>User Segments:</strong> Identify specific user groups who may benefit most from insurance, such as commuters, tourists, or recreational riders.</li>
+          <li><strong>Operational Costs:</strong> Analyze the impact of offering insurance on operational costs and evaluate potential risks for payouts.</li>
+        </ul>
+        <hr>
+        <!-- Analysis Deep Dive -->
+        <h2>4. Analysis Deep Dive</h2>
+        <div class="text-block">
+          <h3>Methodology</h3>
+          <p>PySpark was used to compute the ride durations by converting the start and end timestamps and calculating the difference in minutes. Rides lasting more than 30 minutes were flagged as eligible for insurance. Additionally, ride distances were calculated using the Haversine formula and then categorized into the following buckets: <strong>0-1, 2-4, 4-9, and 10+ miles</strong>. All heavy aggregations were performed in Spark to efficiently process the large dataset.</p>
+        </div>
+        <div class="text-block">
+          <h3>Data Overview</h3>
+          <p>The dataset is structured as follows:</p>
+          <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">root<br> |-- ride_id: double (nullable = true)<br> |-- rideable_type: string (nullable = true)<br> |-- started_at: string (nullable = true)<br> |-- ended_at: string (nullable = true)<br> |-- start_station_name: string (nullable = true)<br> |-- start_station_id: double (nullable = true)<br> |-- end_station_name: string (nullable = true)<br> |-- end_station_id: double (nullable = true)<br> |-- start_lat: string (nullable = true)<br> |-- start_lng: string (nullable = true)<br> |-- end_lat: string (nullable = true)<br> |-- end_lng: string (nullable = true)<br> |-- member_casual: string (nullable = true)<br><br></pre>
+        </div>
+        <div class="text-block">
+          <h3>Quality Summary</h3>
+          <p>Overview of the key data quality metrics from the Citibike dataset.</p>
+          <table>
+            <tr>
+              <th>Metric</th>
+              <th>Count</th>
+            </tr>
+            <tr>
+              <td>Total Rows</td>
+              <td>1000000</td>
+            </tr>
+            <tr>
+              <td>Invalid Timestamps</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>Non-Positive Durations</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>Missing Station Names</td>
+              <td>3957</td>
+            </tr>
+            <tr>
+              <td>Invalid Coordinates</td>
+              <td>205</td>
+            </tr>
+            <tr>
+              <td>Duplicate Ride IDs</td>
+              <td>2</td>
+            </tr>
+          </table>
+        </div>
+        <div class="text-block">
+          <h3>Calculations</h3>
+          <h4>Ride Duration</h4>
+          <p>The duration was determined using the timestamps <code>started_at_ts</code> and <code>ended_at_ts</code>. By calculating the difference in seconds and converting it to minutes, we obtained a precise measure of how long each ride lasted.</p>
+          <pre>
+duration_sec = unix_timestamp(ended_at_ts) - unix_timestamp(started_at_ts)
+duration_min = duration_sec / 60
+          </pre>
+          <h4>Distance Calculation Using the Haversine Formula</h4>
+          <p>To determine the travel distance, the <strong>Haversine formula</strong> was used, which calculates the great-circle distance between two points on the Earth's surface. The calculation accounts for the curvature of the Earth, making it more accurate for geographical distance measurement.</p>
+          <pre>
+delta_lat = radians(end_lat - start_lat)
+delta_lng = radians(end_lng - start_lng)
+start_lat_rad = radians(start_lat)
+end_lat_rad = radians(end_lat)
+          </pre>
+          <p>The Haversine formula was then used to compute the distance in miles:</p>
+          <pre>
+a = sin(delta_lat / 2)^2 + cos(start_lat_rad) * cos(end_lat_rad) * sin(delta_lng / 2)^2
+c = 2 * asin(sqrt(a))
+distance = 3959 * c  # Earth's radius in miles
+          </pre>
+        </div>
+        <div class="text-block">
+          <h2>5. Interactive Station Map</h2>
+          <p>This interactive map visualizes the spatial distribution of Citibike stations across NYC. The map includes:</p>
+          <ul>
+            <li><strong>Start Stations:</strong> Blue markers sized by the number of rides starting at each station.</li>
+            <li><strong>End Stations:</strong> Red markers sized by the number of rides ending at each station.</li>
+            <li><strong>HeatMap:</strong> A combined heatmap highlighting station usage density.</li>
+          </ul>
+          <p>Use the controls to toggle between layers and explore the data interactively.</p>
+          <iframe src="03results/advanced_nyc_station_usage_map.html" style="width: 100%; height: 600px;" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</body>
+</html>
