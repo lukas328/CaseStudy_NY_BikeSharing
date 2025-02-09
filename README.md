@@ -3,6 +3,9 @@
 ## Overview
 This project analyzes bike-sharing data from Citi Bike in New York City to identify trends and insights. The primary goal is to determine whether an insurance fee should be introduced for rides exceeding 30 minutes. The analysis is structured around fetching, processing, and visualizing the data.
 
+## Note
+**business_analysis.html** is generated as result of the analysis, use that html to evaluate for better readibility
+
 ## Project Structure
 ```
 ├── get_raw_data.ipynb        # Notebook for data retrieval and preprocessing
